@@ -1,0 +1,111 @@
+[
+  {
+    "source": "arxiv",
+    "id": "2005.12543v3",
+    "title": "Computing persistent Stiefel-Whitney classes of line bundles",
+    "abstract": "We propose a definition of persistent Stiefel-Whitney classes of vector bundle filtrations. It relies on seeing vector bundles as subsets of some Euclidean spaces. The usual Čech filtration of such a subset can be endowed with a vector bundle structure, that we call a Čech bundle filtration. We show that this construction is stable and consistent. When the dataset is a finite sample of a line bundle, we implement an effective algorithm to compute its persistent Stiefel-Whitney classes. In order to use simplicial approximation techniques in practice, we develop a notion of weak simplicial approximation. As a theoretical example, we give an in-depth study of the normal bundle of the circle, which reduces to understanding the persistent cohomology of the torus knot (1,2). We illustrate our method on several datasets inspired by image analysis.",
+    "authors": [
+      "Raphaël Tinarrage"
+    ],
+    "categories": [
+      "math.AT",
+      "cs.CG"
+    ],
+    "published": "2020-05-26T06:56:58Z",
+    "url": "https://arxiv.org/abs/2005.12543v3",
+    "search_query": "\"psychological experiment\" computational",
+    "llm_annotated_terms": []
+  },
+  {
+    "source": "arxiv",
+    "id": "1912.11717v3",
+    "title": "Adjoint computations by algorithmic differentiation of a parallel solver for time-dependent PDEs",
+    "abstract": "A computational fluid dynamics code is differentiated using algorithmic differentiation (AD) in both tangent and adjoint modes. The two novelties of the present approach are 1) the adjoint code is obtained by letting the AD tool Tapenade invert the complete layer of message passing interface (MPI) communications, and 2) the adjoint code integrates time-dependent, non-linear and dissipative (hence physically irreversible) PDEs with an explicit time integration loop running for ca. $10^{6}$ time steps. The approach relies on using the Adjoinable MPI library to reverse the non-blocking communication patterns in the original code, and by controlling the memory overhead induced by the time-stepping loop with binomial checkpointing. A description of the necessary code modifications is provided along with the validation of the computed derivatives and a performance comparison of the tangent and adjoint codes.",
+    "authors": [
+      "J. I. Cardesa",
+      "L. Hascoët",
+      "C. Airiau"
+    ],
+    "categories": [
+      "physics.comp-ph",
+      "physics.flu-dyn"
+    ],
+    "published": "2019-12-25T21:17:56Z",
+    "url": "https://arxiv.org/abs/1912.11717v3",
+    "search_query": "\"psychological experiment\" computational",
+    "llm_annotated_terms": []
+  },
+  {
+    "source": "arxiv",
+    "id": "1901.00497v3",
+    "title": "A computational framework for the morpho-elastic development of molluskan shells by surface and volume growth",
+    "abstract": "Mollusk shells are an ideal model system for understanding the morpho-elastic basis of morphological evolution of invertebrates' exoskeletons. During the formation of the shell, the mantle tissue secretes proteins and minerals that calcify to form a new incremental layer of the exoskeleton. Most of the existing literature on the morphology of mollusks is descriptive. The mathematical understanding of the underlying coupling between pre-existing shell morphology, de novo surface deposition and morpho-elastic volume growth is at a nascent stage, primarily limited to reduced geometric representations. Here, we propose a general, three-dimensional computational framework coupling pre-existing morphology, incremental surface growth by accretion, and morpho-elastic volume growth. We exercise this framework by applying it to explain the stepwise morphogenesis of seashells during growth: new material surfaces are laid down by accretive growth on the mantle whose form is determined by its morpho-elastic growth. Calcification of the newest surfaces extends the shell as well as creates a new scaffold that constrains the next growth step. We study the effects of surface and volumetric growth rates, and of previously deposited shell geometries on the resulting modes of mantle deformation, and therefore of the developing shell's morphology. Connections are made to a range of complex shells ornamentations.",
+    "authors": [
+      "Shiva Rudraraju",
+      "Derek E. Moulton",
+      "Régis Chirat",
+      "Alain Goriely",
+      "Krishna Garikipati"
+    ],
+    "categories": [
+      "q-bio.QM",
+      "physics.comp-ph"
+    ],
+    "published": "2019-01-02T21:50:45Z",
+    "url": "https://arxiv.org/abs/1901.00497v3",
+    "search_query": "\"psychological experiment\" computational",
+    "llm_annotated_terms": []
+  },
+  {
+    "source": "arxiv",
+    "id": "2404.12941v1",
+    "title": "Towards behavioral consistency in heterogeneous modeling scenarios",
+    "abstract": "Behavioral models play an essential role in Model-driven engineering (MDE). Keeping inter-related behavioral models consistent is critical to use them successfully in MDE. However, consistency checking for behavioral models, especially in a heterogeneous scenario, is limited. We propose a methodology to integrate heterogeneous behavioral models to achieve consistency checking in broader scenarios. It is based on aligning the respective behavioral metamodels by defining possible inter-model relations which carry behavioral meaning. Converting the models and their relations to a behavioral formalism enables analysis of global behavioral consistency using model-checking.",
+    "authors": [
+      "Tim Kräuter"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "published": "2024-04-19T15:15:26Z",
+    "url": "https://arxiv.org/abs/2404.12941v1",
+    "search_query": "\"behavioral modeling\"",
+    "llm_annotated_terms": []
+  },
+  {
+    "source": "arxiv",
+    "id": "1707.03765v3",
+    "title": "Computing Singularly Perturbed Differential Equations",
+    "abstract": "A computational tool for coarse-graining nonlinear systems of ordinary differential equations in time is discussed. Three illustrative model examples are worked out that demonstrate the range of capability of the method. This includes the averaging of Hamiltonian as well as dissipative microscopic dynamics whose `slow' variables, defined in a precise sense, can often display mixed slow-fast response as in relaxation oscillations, and dependence on initial conditions of the fast variables. Also covered is the case where the quasi-static assumption in solid mechanics is violated. The computational tool is demonstrated to capture all of these behaviors in an accurate and robust manner, with significant savings in time. A practically useful strategy for initializing short bursts of microscopic runs for the accurate computation of the evolution of slow variables is also developed.",
+    "authors": [
+      "Sabyasachi Chatterjee",
+      "Amit Acharya",
+      "Zvi Artstein"
+    ],
+    "categories": [
+      "math.NA",
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "published": "2017-07-06T19:58:50Z",
+    "url": "https://arxiv.org/abs/1707.03765v3",
+    "search_query": "\"psychological experiment\" computational",
+    "llm_annotated_terms": []
+  },
+  {
+    "source": "arxiv",
+    "id": "2509.24782v1",
+    "title": "Large language models for behavioral modeling: A literature survey",
+    "abstract": "In recent years, large language models (LLMs) have been extensively utilized for behavioral modeling, for example, to automatically generate sequence diagrams. However, no overview of this work has been published yet. Such an overview will help identify future research directions and inform practitioners and educators about the effectiveness of LLMs in assisting behavioral modeling. This study aims to provide an overview of the existing research on the use of LLMs for behavioral modeling, particularly focusing on use case and sequence diagrams. Through a term-based search, we filtered and identified 14 relevant primary studies. Our analysis of the selected primary studies reveals that LLMs have demonstrated promising results in automatically generating use case and sequence diagrams. In addition, we found that most of the current literature lacks expert-based evaluations and has mainly used GPT-based models. Therefore, future work should evaluate a broader range of LLMs for behavioral modeling and involve domain experts to evaluate the output of LLMs.",
+    "authors": [
+      "Muhammad Laiq"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "published": "2025-09-29T13:43:02Z",
+    "url": "https://arxiv.org/abs/2509.24782v1",
+    "search_query": "\"behavioral modeling\"",
+    "llm_annotated_terms": []
+  }
+]

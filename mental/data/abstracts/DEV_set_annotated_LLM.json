@@ -1,0 +1,1753 @@
+[
+  {
+    "source": "arxiv",
+    "id": "2005.12543v3",
+    "title": "Computing persistent Stiefel-Whitney classes of line bundles",
+    "abstract": "We propose a definition of persistent Stiefel-Whitney classes of vector bundle filtrations. It relies on seeing vector bundles as subsets of some Euclidean spaces. The usual Čech filtration of such a subset can be endowed with a vector bundle structure, that we call a Čech bundle filtration. We show that this construction is stable and consistent. When the dataset is a finite sample of a line bundle, we implement an effective algorithm to compute its persistent Stiefel-Whitney classes. In order to use simplicial approximation techniques in practice, we develop a notion of weak simplicial approximation. As a theoretical example, we give an in-depth study of the normal bundle of the circle, which reduces to understanding the persistent cohomology of the torus knot (1,2). We illustrate our method on several datasets inspired by image analysis.",
+    "authors": [
+      "Raphaël Tinarrage"
+    ],
+    "categories": [
+      "math.AT",
+      "cs.CG"
+    ],
+    "published": "2020-05-26T06:56:58Z",
+    "url": "https://arxiv.org/abs/2005.12543v3",
+    "search_query": "\"psychological experiment\" computational",
+    "llm_annotated_terms": []
+  },
+  {
+    "source": "arxiv",
+    "id": "1912.11717v3",
+    "title": "Adjoint computations by algorithmic differentiation of a parallel solver for time-dependent PDEs",
+    "abstract": "A computational fluid dynamics code is differentiated using algorithmic differentiation (AD) in both tangent and adjoint modes. The two novelties of the present approach are 1) the adjoint code is obtained by letting the AD tool Tapenade invert the complete layer of message passing interface (MPI) communications, and 2) the adjoint code integrates time-dependent, non-linear and dissipative (hence physically irreversible) PDEs with an explicit time integration loop running for ca. $10^{6}$ time steps. The approach relies on using the Adjoinable MPI library to reverse the non-blocking communication patterns in the original code, and by controlling the memory overhead induced by the time-stepping loop with binomial checkpointing. A description of the necessary code modifications is provided along with the validation of the computed derivatives and a performance comparison of the tangent and adjoint codes.",
+    "authors": [
+      "J. I. Cardesa",
+      "L. Hascoët",
+      "C. Airiau"
+    ],
+    "categories": [
+      "physics.comp-ph",
+      "physics.flu-dyn"
+    ],
+    "published": "2019-12-25T21:17:56Z",
+    "url": "https://arxiv.org/abs/1912.11717v3",
+    "search_query": "\"psychological experiment\" computational",
+    "llm_annotated_terms": []
+  },
+  {
+    "source": "arxiv",
+    "id": "2009.13758v1",
+    "title": "How do Visualization Designers Think? Design Cognition as a Core Aspect of Visualization Psychology",
+    "abstract": "There are numerous opportunities for engaging in research at the intersection of psychology and visualization. While most opportunities taken up by the VIS community will likely focus on the psychology of users, there are also opportunities for studying the psychology of designers. In this position paper, I argue the importance of studying design cognition as a necessary component of a holistic program of research on visualization psychology. I provide a brief overview of research on design cognition in other disciplines, and discuss opportunities for VIS to build an analogous research program. Doing so can lead to a stronger integration of research and design practice, can provide a better understanding of how to educate and train future designers, and will likely surface both challenges and opportunities for future research.",
+    "authors": [
+      "Paul Parsons"
+    ],
+    "categories": [
+      "cs.HC"
+    ],
+    "published": "2020-09-29T03:57:57Z",
+    "url": "https://arxiv.org/abs/2009.13758v1",
+    "search_query": "\"cognitive psychology\"",
+    "llm_annotated_terms": [
+      "design cognition",
+      "visualization psychology",
+      "psychology of users",
+      "psychology of designers",
+      "design practice",
+      "education and training of designers",
+      "research program"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2011.05233v2",
+    "title": "On the State of Social Media Data for Mental Health Research",
+    "abstract": "Data-driven methods for mental health treatment and surveillance have become a major focus in computational science research in the last decade. However, progress in the domain, in terms of both medical understanding and system performance, remains bounded by the availability of adequate data. Prior systematic reviews have not necessarily made it possible to measure the degree to which data-related challenges have affected research progress. In this paper, we offer an analysis specifically on the state of social media data that exists for conducting mental health research. We do so by introducing an open-source directory of mental health datasets, annotated using a standardized schema to facilitate meta-analysis.",
+    "authors": [
+      "Keith Harrigian",
+      "Carlos Aguirre",
+      "Mark Dredze"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2020-11-10T16:45:52Z",
+    "url": "https://arxiv.org/abs/2011.05233v2",
+    "search_query": "\"mental health\" AI",
+    "llm_annotated_terms": [
+      "mental health",
+      "mental health treatment",
+      "mental health surveillance",
+      "data-driven methods",
+      "dataset annotation",
+      "meta-analysis",
+      "medical understanding",
+      "system performance"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "1706.08606v2",
+    "title": "Cognitive Psychology for Deep Neural Networks: A Shape Bias Case Study",
+    "abstract": "Deep neural networks (DNNs) have achieved unprecedented performance on a wide range of complex tasks, rapidly outpacing our understanding of the nature of their solutions. This has caused a recent surge of interest in methods for rendering modern neural systems more interpretable. In this work, we propose to address the interpretability problem in modern DNNs using the rich history of problem descriptions, theories and experimental methods developed by cognitive psychologists to study the human mind. To explore the potential value of these tools, we chose a well-established analysis from developmental psychology that explains how children learn word labels for objects, and applied that analysis to DNNs. Using datasets of stimuli inspired by the original cognitive psychology experiments, we find that state-of-the-art one shot learning models trained on ImageNet exhibit a similar bias to that observed in humans: they prefer to categorize objects according to shape rather than color. The magnitude of this shape bias varies greatly among architecturally identical, but differently seeded models, and even fluctuates within seeds throughout training, despite nearly equivalent classification performance. These results demonstrate the capability of tools from cognitive psychology for exposing hidden computational properties of DNNs, while concurrently providing us with a computational model for human word learning.",
+    "authors": [
+      "Samuel Ritter",
+      "David G. T. Barrett",
+      "Adam Santoro",
+      "Matt M. Botvinick"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "published": "2017-06-26T21:31:18Z",
+    "url": "https://arxiv.org/abs/1706.08606v2",
+    "search_query": "\"cognitive psychology\"",
+    "llm_annotated_terms": [
+      "interpretability (in cognitive psychology context)",
+      "developmental psychology",
+      "one-shot learning",
+      "shape bias",
+      "word learning",
+      "categorization",
+      "label learning",
+      "human word learning",
+      "experimental methods",
+      "cognitive psychology",
+      "stimuli (experimental)",
+      "bias (cognitive)"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2401.15081v1",
+    "title": "Can generative AI and ChatGPT outperform humans on cognitive-demanding problem-solving tasks in science?",
+    "abstract": "This study aimed to examine an assumption that generative artificial intelligence (GAI) tools can overcome the cognitive intensity that humans suffer when solving problems. We compared the performance of ChatGPT and GPT-4 on 2019 NAEP science assessments with students by cognitive demands of the items. Fifty-four tasks were coded by experts using a two-dimensional cognitive load framework, including task cognitive complexity and dimensionality. ChatGPT and GPT-4 responses were scored using the scoring keys of NAEP. The analysis of the available data was based on the average student ability scores for students who answered each item correctly and the percentage of students who responded to individual items. Results showed that both ChatGPT and GPT-4 consistently outperformed most students who answered the NAEP science assessments. As the cognitive demand for NAEP tasks increases, statistically higher average student ability scores are required to correctly address the questions. This pattern was observed for students in grades 4, 8, and 12, respectively. However, ChatGPT and GPT-4 were not statistically sensitive to the increase in cognitive demands of the tasks, except for Grade 4. As the first study focusing on comparing GAI and K-12 students in problem-solving in science, this finding implies the need for changes to educational objectives to prepare students with competence to work with GAI tools in the future. Education ought to emphasize the cultivation of advanced cognitive skills rather than depending solely on tasks that demand cognitive intensity. This approach would foster critical thinking, analytical skills, and the application of knowledge in novel contexts. Findings also suggest the need for innovative assessment practices by moving away from cognitive intensity tasks toward creativity and analytical skills to avoid the negative effects of GAI on testing more efficiently.",
+    "authors": [
+      "Xiaoming Zhai",
+      "Matthew Nyaaba",
+      "Wenchao Ma"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CY"
+    ],
+    "published": "2024-01-07T12:36:31Z",
+    "url": "https://arxiv.org/abs/2401.15081v1",
+    "search_query": "\"cognitive science\"",
+    "llm_annotated_terms": [
+      "cognitive load",
+      "cognitive complexity",
+      "cognitive demand",
+      "problem-solving",
+      "critical thinking",
+      "analytical skills",
+      "application of knowledge",
+      "mental workload",
+      "task dimensionality",
+      "cognitive intensity",
+      "expert coding"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2302.06615v2",
+    "title": "Self-Emotion-Mediated Exploration in Artificial Intelligence Mirrors: Findings from Cognitive Psychology",
+    "abstract": "Background: Exploration of the physical environment is an indispensable precursor to information acquisition and knowledge consolidation for living organisms. Yet, current artificial intelligence models lack these autonomy capabilities during training, hindering their adaptability. This work proposes a learning framework for artificial agents to obtain an intrinsic exploratory drive, based on epistemic and achievement emotions triggered during data observation. Methods: This study proposes a dual-module reinforcement framework, where data analysis scores dictate pride or surprise, in accordance with psychological studies on humans. A correlation between these states and exploration is then optimized for agents to meet their learning goals. Results: Causal relationships between states and exploration are demonstrated by the majority of agents. A 15.4\\% mean increase is noted for surprise, with a 2.8\\% mean decrease for pride. Resulting correlations of $ρ_{surprise}=0.461$ and $ρ_{pride}=-0.237$ are obtained, mirroring previously reported human behavior. Conclusions: These findings lead to the conclusion that bio-inspiration for AI development can be of great use. This can incur benefits typically found in living beings, such as autonomy. Further, it empirically shows how AI methodologies can corroborate human behavioral findings, showcasing major interdisciplinary importance. Ramifications are discussed.",
+    "authors": [
+      "Gustavo Assunção",
+      "Miguel Castelo-Branco",
+      "Paulo Menezes"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "published": "2023-02-13T18:20:44Z",
+    "url": "https://arxiv.org/abs/2302.06615v2",
+    "search_query": "\"cognitive psychology\"",
+    "llm_annotated_terms": [
+      "epistemic emotions",
+      "achievement emotions",
+      "pride",
+      "surprise",
+      "intrinsic exploratory drive",
+      "exploration",
+      "knowledge consolidation",
+      "autonomy",
+      "behavioral findings",
+      "causal relationships",
+      "correlation",
+      "self-emotion-mediated exploration"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2208.09719v1",
+    "title": "Cognitive Modeling of Semantic Fluency Using Transformers",
+    "abstract": "Can deep language models be explanatory models of human cognition? If so, what are their limits? In order to explore this question, we propose an approach called hyperparameter hypothesization that uses predictive hyperparameter tuning in order to find individuating descriptors of cognitive-behavioral profiles. We take the first step in this approach by predicting human performance in the semantic fluency task (SFT), a well-studied task in cognitive science that has never before been modeled using transformer-based language models (TLMs). In our task setup, we compare several approaches to predicting which word an individual performing SFT will utter next. We report preliminary evidence suggesting that, despite obvious implementational differences in how people and TLMs learn and use language, TLMs can be used to identify individual differences in human fluency task behaviors better than existing computational models, and may offer insights into human memory retrieval strategies -- cognitive process not typically considered to be the kinds of things TLMs can model. Finally, we discuss the implications of this work for cognitive modeling of knowledge representations.",
+    "authors": [
+      "Animesh Nighojkar",
+      "Anna Khlyzova",
+      "John Licato"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "published": "2022-08-20T16:48:04Z",
+    "url": "https://arxiv.org/abs/2208.09719v1",
+    "search_query": "\"cognitive modeling\"",
+    "llm_annotated_terms": [
+      "semantic fluency task",
+      "semantic fluency",
+      "transformer-based language models",
+      "deep language models",
+      "cognitive modeling",
+      "hyperparameter hypothesization",
+      "predictive hyperparameter tuning",
+      "individual differences",
+      "cognitive-behavioral profiles",
+      "memory retrieval strategies",
+      "human memory retrieval",
+      "knowledge representations",
+      "cognitive process",
+      "human cognition"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "1901.00497v3",
+    "title": "A computational framework for the morpho-elastic development of molluskan shells by surface and volume growth",
+    "abstract": "Mollusk shells are an ideal model system for understanding the morpho-elastic basis of morphological evolution of invertebrates' exoskeletons. During the formation of the shell, the mantle tissue secretes proteins and minerals that calcify to form a new incremental layer of the exoskeleton. Most of the existing literature on the morphology of mollusks is descriptive. The mathematical understanding of the underlying coupling between pre-existing shell morphology, de novo surface deposition and morpho-elastic volume growth is at a nascent stage, primarily limited to reduced geometric representations. Here, we propose a general, three-dimensional computational framework coupling pre-existing morphology, incremental surface growth by accretion, and morpho-elastic volume growth. We exercise this framework by applying it to explain the stepwise morphogenesis of seashells during growth: new material surfaces are laid down by accretive growth on the mantle whose form is determined by its morpho-elastic growth. Calcification of the newest surfaces extends the shell as well as creates a new scaffold that constrains the next growth step. We study the effects of surface and volumetric growth rates, and of previously deposited shell geometries on the resulting modes of mantle deformation, and therefore of the developing shell's morphology. Connections are made to a range of complex shells ornamentations.",
+    "authors": [
+      "Shiva Rudraraju",
+      "Derek E. Moulton",
+      "Régis Chirat",
+      "Alain Goriely",
+      "Krishna Garikipati"
+    ],
+    "categories": [
+      "q-bio.QM",
+      "physics.comp-ph"
+    ],
+    "published": "2019-01-02T21:50:45Z",
+    "url": "https://arxiv.org/abs/1901.00497v3",
+    "search_query": "\"psychological experiment\" computational",
+    "llm_annotated_terms": []
+  },
+  {
+    "source": "arxiv",
+    "id": "2404.12941v1",
+    "title": "Towards behavioral consistency in heterogeneous modeling scenarios",
+    "abstract": "Behavioral models play an essential role in Model-driven engineering (MDE). Keeping inter-related behavioral models consistent is critical to use them successfully in MDE. However, consistency checking for behavioral models, especially in a heterogeneous scenario, is limited. We propose a methodology to integrate heterogeneous behavioral models to achieve consistency checking in broader scenarios. It is based on aligning the respective behavioral metamodels by defining possible inter-model relations which carry behavioral meaning. Converting the models and their relations to a behavioral formalism enables analysis of global behavioral consistency using model-checking.",
+    "authors": [
+      "Tim Kräuter"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "published": "2024-04-19T15:15:26Z",
+    "url": "https://arxiv.org/abs/2404.12941v1",
+    "search_query": "\"behavioral modeling\"",
+    "llm_annotated_terms": []
+  },
+  {
+    "source": "arxiv",
+    "id": "1707.03765v3",
+    "title": "Computing Singularly Perturbed Differential Equations",
+    "abstract": "A computational tool for coarse-graining nonlinear systems of ordinary differential equations in time is discussed. Three illustrative model examples are worked out that demonstrate the range of capability of the method. This includes the averaging of Hamiltonian as well as dissipative microscopic dynamics whose `slow' variables, defined in a precise sense, can often display mixed slow-fast response as in relaxation oscillations, and dependence on initial conditions of the fast variables. Also covered is the case where the quasi-static assumption in solid mechanics is violated. The computational tool is demonstrated to capture all of these behaviors in an accurate and robust manner, with significant savings in time. A practically useful strategy for initializing short bursts of microscopic runs for the accurate computation of the evolution of slow variables is also developed.",
+    "authors": [
+      "Sabyasachi Chatterjee",
+      "Amit Acharya",
+      "Zvi Artstein"
+    ],
+    "categories": [
+      "math.NA",
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "published": "2017-07-06T19:58:50Z",
+    "url": "https://arxiv.org/abs/1707.03765v3",
+    "search_query": "\"psychological experiment\" computational",
+    "llm_annotated_terms": []
+  },
+  {
+    "source": "arxiv",
+    "id": "1211.2342v4",
+    "title": "On selective influences, marginal selectivity, and Bell/CHSH inequalities",
+    "abstract": "The Bell/CHSH inequalities of quantum physics are identical with the inequalities derived in mathematical psychology for the problem of selective influences in cases involving two bi- nary experimental factors and two binary random variables recorded in response to them. The following points are made regarding cognitive science applications: (1) compliance of data with these inequalities is informative only if the data satisfy the requirement known as marginal selectivity; (2) both violations of marginal selectivity and violations of the Bell/CHSH inequalities are interpretable as indicating that at least one of the two responses is influenced by both experimental factors.",
+    "authors": [
+      "Ehtibar N. Dzhafarov",
+      "Janne V. Kujala"
+    ],
+    "categories": [
+      "math-ph",
+      "math.PR",
+      "q-bio.NC",
+      "quant-ph"
+    ],
+    "published": "2012-11-10T18:21:44Z",
+    "url": "https://arxiv.org/abs/1211.2342v4",
+    "search_query": "\"cognitive psychology\"",
+    "llm_annotated_terms": [
+      "selective influences",
+      "marginal selectivity",
+      "Bell/CHSH inequalities",
+      "binary experimental factors",
+      "binary random variables",
+      "selective influence violations",
+      "response influence"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "1608.02164v1",
+    "title": "Adapting Deep Network Features to Capture Psychological Representations",
+    "abstract": "Deep neural networks have become increasingly successful at solving classic perception problems such as object recognition, semantic segmentation, and scene understanding, often reaching or surpassing human-level accuracy. This success is due in part to the ability of DNNs to learn useful representations of high-dimensional inputs, a problem that humans must also solve. We examine the relationship between the representations learned by these networks and human psychological representations recovered from similarity judgments. We find that deep features learned in service of object classification account for a significant amount of the variance in human similarity judgments for a set of animal images. However, these features do not capture some qualitative distinctions that are a key part of human representations. To remedy this, we develop a method for adapting deep features to align with human similarity judgments, resulting in image representations that can potentially be used to extend the scope of psychological experiments.",
+    "authors": [
+      "Joshua C. Peterson",
+      "Joshua T. Abbott",
+      "Thomas L. Griffiths"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.NE"
+    ],
+    "published": "2016-08-06T23:49:48Z",
+    "url": "https://arxiv.org/abs/1608.02164v1",
+    "search_query": "\"psychological modeling\"",
+    "llm_annotated_terms": [
+      "psychological representations",
+      "similarity judgments",
+      "human similarity judgments",
+      "representations (mental representations)",
+      "object representation",
+      "perception",
+      "semantic representations",
+      "psychological experiments",
+      "human-level accuracy (human performance)"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2007.11845v3",
+    "title": "Time Perception: A Review on Psychological, Computational and Robotic Models",
+    "abstract": "Animals exploit time to survive in the world. Temporal information is required for higher-level cognitive abilities such as planning, decision making, communication, and effective cooperation. Since time is an inseparable part of cognition, there is a growing interest in the artificial intelligence approach to subjective time, which has a possibility of advancing the field. The current survey study aims to provide researchers with an interdisciplinary perspective on time perception. Firstly, we introduce a brief background from the psychology and neuroscience literature, covering the characteristics and models of time perception and related abilities. Secondly, we summarize the emergent computational and robotic models of time perception. A general overview to the literature reveals that a substantial amount of timing models are based on a dedicated time processing like the emergence of a clock-like mechanism from the neural network dynamics and reveal a relationship between the embodiment and time perception. We also notice that most models of timing are developed for either sensory timing (i.e. ability to assess an interval) or motor timing (i.e. ability to reproduce an interval). The number of timing models capable of retrospective timing, which is the ability to track time without paying attention, is insufficient. In this light, we discuss the possible research directions to promote interdisciplinary collaboration in the field of time perception.",
+    "authors": [
+      "Hamit Basgol",
+      "Inci Ayhan",
+      "Emre Ugur"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CY",
+      "cs.NE",
+      "cs.RO"
+    ],
+    "published": "2020-07-23T08:16:47Z",
+    "url": "https://arxiv.org/abs/2007.11845v3",
+    "search_query": "\"computational psychology\"",
+    "llm_annotated_terms": [
+      "time perception",
+      "subjective time",
+      "planning",
+      "decision making",
+      "communication",
+      "cooperation",
+      "cognition",
+      "neuroscience",
+      "models of time perception",
+      "clock-like mechanism",
+      "neural network dynamics",
+      "embodiment",
+      "sensory timing",
+      "motor timing",
+      "interval timing",
+      "retrospective timing",
+      "timing models",
+      "temporal information",
+      "time processing"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "1911.05703v3",
+    "title": "False positives using social cognitive mapping to identify childrens' peer groups",
+    "abstract": "Children and adolescents interact in peer groups, which are known to influence a range of psychological and behavioral outcomes. In developmental psychology and related disciplines, social cognitive mapping (SCM), as implemented with the SCM 4.0 software, is the most commonly used method for identifying peer groups from peer report data. However, in a series of four studies, we demonstrate that SCM has an unacceptably high risk of false positives. Specifically, we show that SCM will identify peer groups even when applied to random data. We introduce backbone extraction and community detection as one promising alternative to SCM, and offer several recommendations for researchers seeking to identify peer groups from peer report data.",
+    "authors": [
+      "Zachary Neal",
+      "Jennifer Watling Neal",
+      "Rachel Domagalski"
+    ],
+    "categories": [
+      "cs.SI"
+    ],
+    "published": "2019-11-13T18:23:45Z",
+    "url": "https://arxiv.org/abs/1911.05703v3",
+    "search_query": "\"cognitive psychology\"",
+    "llm_annotated_terms": [
+      "social cognitive mapping",
+      "peer groups",
+      "peer report",
+      "developmental psychology",
+      "social network community detection",
+      "backbone extraction",
+      "false positives",
+      "peer influence"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2302.00954v1",
+    "title": "Curriculum-guided Abstractive Summarization for Mental Health Online Posts",
+    "abstract": "Automatically generating short summaries from users' online mental health posts could save counselors' reading time and reduce their fatigue so that they can provide timely responses to those seeking help for improving their mental state. Recent Transformers-based summarization models have presented a promising approach to abstractive summarization. They go beyond sentence selection and extractive strategies to deal with more complicated tasks such as novel word generation and sentence paraphrasing. Nonetheless, these models have a prominent shortcoming; their training strategy is not quite efficient, which restricts the model's performance. In this paper, we include a curriculum learning approach to reweigh the training samples, bringing about an efficient learning procedure. We apply our model on extreme summarization dataset of MentSum posts -- a dataset of mental health related posts from Reddit social media. Compared to the state-of-the-art model, our proposed method makes substantial gains in terms of Rouge and Bertscore evaluation metrics, yielding 3.5% (Rouge-1), 10.4% (Rouge-2), and 4.7% (Rouge-L), 1.5% (Bertscore) relative improvements.",
+    "authors": [
+      "Sajad Sotudeh",
+      "Nazli Goharian",
+      "Hanieh Deilamsalehy",
+      "Franck Dernoncourt"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "published": "2023-02-02T08:48:26Z",
+    "url": "https://arxiv.org/abs/2302.00954v1",
+    "search_query": "\"mental health\" AI",
+    "llm_annotated_terms": [
+      "mental health",
+      "counseling",
+      "fatigue",
+      "mental state",
+      "online mental health posts",
+      "help-seeking behavior"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2006.13211v1",
+    "title": "Meta Transfer Learning for Emotion Recognition",
+    "abstract": "Deep learning has been widely adopted in automatic emotion recognition and has lead to significant progress in the field. However, due to insufficient annotated emotion datasets, pre-trained models are limited in their generalization capability and thus lead to poor performance on novel test sets. To mitigate this challenge, transfer learning performing fine-tuning on pre-trained models has been applied. However, the fine-tuned knowledge may overwrite and/or discard important knowledge learned from pre-trained models. In this paper, we address this issue by proposing a PathNet-based transfer learning method that is able to transfer emotional knowledge learned from one visual/audio emotion domain to another visual/audio emotion domain, and transfer the emotional knowledge learned from multiple audio emotion domains into one another to improve overall emotion recognition accuracy. To show the robustness of our proposed system, various sets of experiments for facial expression recognition and speech emotion recognition task on three emotion datasets: SAVEE, EMODB, and eNTERFACE have been carried out. The experimental results indicate that our proposed system is capable of improving the performance of emotion recognition, making its performance substantially superior to the recent proposed fine-tuning/pre-trained models based transfer learning methods.",
+    "authors": [
+      "Dung Nguyen",
+      "Sridha Sridharan",
+      "Duc Thanh Nguyen",
+      "Simon Denman",
+      "David Dean",
+      "Clinton Fookes"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-06-23T00:25:28Z",
+    "url": "https://arxiv.org/abs/2006.13211v1",
+    "search_query": "\"emotion recognition\"",
+    "llm_annotated_terms": [
+      "emotion recognition",
+      "facial expression recognition",
+      "speech emotion recognition",
+      "emotional knowledge",
+      "emotion datasets"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "1906.11247v2",
+    "title": "Beyond DAGs: Modeling Causal Feedback with Fuzzy Cognitive Maps",
+    "abstract": "Fuzzy cognitive maps (FCMs) model feedback causal relations in interwoven webs of causality and policy variables. FCMs are fuzzy signed directed graphs that allow degrees of causal influence and event occurrence. Such causal models can simulate a wide range of policy scenarios and decision processes. Their directed loops or cycles directly model causal feedback. Their nonlinear dynamics permit forward-chaining inference from input causes and policy options to output effects. Users can add detailed dynamics and feedback links directly to the causal model or infer them with statistical learning laws. Users can fuse or combine FCMs from multiple experts by weighting and adding the underlying fuzzy edge matrices and do so recursively if needed. The combined FCM tends to better represent domain knowledge as the expert sample size increases if the expert sample approximates a random sample. Many causal models use more restrictive directed acyclic graphs (DAGs) and Bayesian probabilities. DAGs do not model causal feedback because they do not contain closed loops. Combining DAGs also tends to produce cycles and thus tends not to produce a new DAG. Combining DAGs tends to produce a FCM. FCM causal influence is also transitive whereas probabilistic causal influence is not transitive in general. Overall: FCMs trade the numerical precision of probabilistic DAGs for pattern prediction, faster and scalable computation, ease of combination, and richer feedback representation. We show how FCMs can apply to problems of public support for insurgency and terrorism and to US-China conflict relations in Graham Allison's Thucydides-trap framework. The appendix gives the textual justification of the Thucydides-trap FCM. It also extends our earlier theorem [Osoba-Kosko2017] to a more general result that shows the transitive and total causal influence that upstream concept nodes exert on downstream nodes.",
+    "authors": [
+      "Osonde Osoba",
+      "Bart Kosko"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "published": "2019-06-26T16:27:01Z",
+    "url": "https://arxiv.org/abs/1906.11247v2",
+    "search_query": "\"cognitive modeling\"",
+    "llm_annotated_terms": [
+      "causal feedback",
+      "causal influence",
+      "feedback loops",
+      "nonlinear dynamics",
+      "forward-chaining inference",
+      "domain knowledge",
+      "transitive causal influence",
+      "policy variables"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2402.14424v3",
+    "title": "Automating psychological hypothesis generation with AI: when large language models meet causal graph",
+    "abstract": "Leveraging the synergy between causal knowledge graphs and a large language model (LLM), our study introduces a groundbreaking approach for computational hypothesis generation in psychology. We analyzed 43,312 psychology articles using a LLM to extract causal relation pairs. This analysis produced a specialized causal graph for psychology. Applying link prediction algorithms, we generated 130 potential psychological hypotheses focusing on `well-being', then compared them against research ideas conceived by doctoral scholars and those produced solely by the LLM. Interestingly, our combined approach of a LLM and causal graphs mirrored the expert-level insights in terms of novelty, clearly surpassing the LLM-only hypotheses (t(59) = 3.34, p=0.007 and t(59) = 4.32, p<0.001, respectively). This alignment was further corroborated using deep semantic analysis. Our results show that combining LLM with machine learning techniques such as causal knowledge graphs can revolutionize automated discovery in psychology, extracting novel insights from the extensive literature. This work stands at the crossroads of psychology and artificial intelligence, championing a new enriched paradigm for data-driven hypothesis generation in psychological research.",
+    "authors": [
+      "Song Tong",
+      "Kai Mao",
+      "Zhen Huang",
+      "Yukun Zhao",
+      "Kaiping Peng"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CY"
+    ],
+    "published": "2024-02-22T10:12:16Z",
+    "url": "https://arxiv.org/abs/2402.14424v3",
+    "search_query": "\"computational psychology\"",
+    "llm_annotated_terms": [
+      "causal relation",
+      "causal graph",
+      "link prediction",
+      "well-being",
+      "hypothesis generation",
+      "novelty (in hypothesis evaluation)",
+      "deep semantic analysis",
+      "causal knowledge graph",
+      "automated discovery",
+      "psychological hypothesis",
+      "expert-level insight"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "1212.0823v3",
+    "title": "Interdisciplinarity at the Journal and Specialty Level: The changing knowledge bases of the journal Cognitive Science",
+    "abstract": "Using the referencing patterns in articles in Cognitive Science over three decades, we analyze the knowledge base of this literature in terms of its changing disciplinary composition. Three periods are distinguished: (1) construction of the interdisciplinary space in the 1980s; (2) development of an interdisciplinary orientation in the 1990s; (3) reintegration into \"cognitive psychology\" in the 2000s. The fluidity and fuzziness of the interdisciplinary delineations in the different visualizations can be reduced and clarified using factor analysis. We also explore newly available routines (\"CorText\") to analyze this development in terms of \"tubes\" using an alluvial map, and compare the results with an animation (using \"visone\"). The historical specificity of this development can be compared with the development of \"artificial intelligence\" into an integrated specialty during this same period. \"Interdisciplinarity\" should be defined differently at the level of journals and of specialties.",
+    "authors": [
+      "Loet Leydesdorff",
+      "Robert L. Goldstone"
+    ],
+    "categories": [
+      "cs.DL"
+    ],
+    "published": "2012-12-04T19:02:40Z",
+    "url": "https://arxiv.org/abs/1212.0823v3",
+    "search_query": "\"cognitive science\"",
+    "llm_annotated_terms": [
+      "interdisciplinarity",
+      "interdisciplinary orientation",
+      "cognitive psychology",
+      "artificial intelligence",
+      "knowledge base",
+      "disciplinary composition",
+      "visualization",
+      "factor analysis",
+      "alluvial map",
+      "animation"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2211.06477v1",
+    "title": "On Measuring Cognition and Cognitive Augmentation",
+    "abstract": "We are at the beginning of a new age in which artificial entities will perform significant amounts of high-level cognitive processing rivaling and even surpassing human thinking. The future belongs to those who can best collaborate with artificial cognitive entities achieving a high degree of cognitive augmenta-tion. However, we currently lack theoretically grounded fundamental metrics able to describe human or artificial cognition much less augmented and combined cognition. How do we measure thinking, cognition, information, and knowledge in an implementation-independent way? How can we tell how much thinking an artificial entity does and how much is done by a human? How can we measure the combined and possible even emergent effect of humans working together with intelligent artificial entities? These are some of the challenges for research-ers in this field. We first define a cognitive process as the transformation of data, information, knowledge, and wisdom. We then review several existing and emerging information metrics based on entropy, processing effort, quantum physics, emergent capacity, and human concept learning. We then discuss how these fail to answer the above questions and provide guidelines for future re-search.",
+    "authors": [
+      "Ron Fulbright"
+    ],
+    "categories": [
+      "cs.HC"
+    ],
+    "published": "2022-11-11T20:37:45Z",
+    "url": "https://arxiv.org/abs/2211.06477v1",
+    "search_query": "\"human cognition\" modeling",
+    "llm_annotated_terms": [
+      "cognition",
+      "cognitive augmentation",
+      "cognitive process",
+      "information",
+      "knowledge",
+      "wisdom",
+      "human concept learning",
+      "emergent cognition",
+      "processing effort",
+      "collaboration with artificial cognitive entities",
+      "combined cognition",
+      "human thinking",
+      "thinking"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2410.13310v1",
+    "title": "Active inference and deep generative modeling for cognitive ultrasound",
+    "abstract": "Ultrasound (US) has the unique potential to offer access to medical imaging to anyone, everywhere. Devices have become ultra-portable and cost-effective, akin to the stethoscope. Nevertheless US image quality and diagnostic efficacy are still highly operator- and patient-dependent. In difficult-to-image patients, image quality is often insufficient for reliable diagnosis. In this paper, we put forth that US imaging systems can be recast as information-seeking agents that engage in reciprocal interactions with their anatomical environment. Such agents autonomously adapt their transmit-receive sequences to fully personalize imaging and actively maximize information gain in-situ. To that end, we will show that the sequence of pulse-echo experiments that a US system performs can be interpreted as a perception-action loop: the action is the data acquisition, probing tissue with acoustic waves and recording reflections at the detection array, and perception is the inference of the anatomical and or functional state, potentially including associated diagnostic quantities. We then equip systems with a mechanism to actively reduce uncertainty and maximize diagnostic value across a sequence of experiments, treating action and perception jointly using Bayesian inference given generative models of the environment and action-conditional pulse-echo observations. Since the representation capacity of the generative models dictates both the quality of inferred anatomical states and the effectiveness of inferred sequences of future imaging actions, we will be greatly leveraging the enormous advances in deep generative modelling that are currently disrupting many fields and society at large. Finally, we show some examples of cognitive, closed-loop, US systems that perform active beamsteering and adaptive scanline selection, based on deep generative models that track anatomical belief states.",
+    "authors": [
+      "Ruud JG van Sloun"
+    ],
+    "categories": [
+      "eess.SP",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "published": "2024-10-17T08:09:14Z",
+    "url": "https://arxiv.org/abs/2410.13310v1",
+    "search_query": "\"cognitive modeling\"",
+    "llm_annotated_terms": [
+      "perception-action loop",
+      "perception",
+      "action",
+      "inference",
+      "uncertainty reduction",
+      "active inference",
+      "belief states",
+      "information-seeking agent",
+      "perception-action coupling",
+      "cognitive system",
+      "decision-making"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "1706.09399v1",
+    "title": "On Dynamical Systems Theory in Quantitative Psychology and Cognition Science: A Fair Discrimination Between Deterministic and Statistical Counterparts Is Required",
+    "abstract": "The present communication addresses a set of observations, obeying both deterministic as well as statistical formal requirements, and serving to operate within the framework of the dynamical systems theory, with a certain emphasis placed on initial data. It is argued that statistical approaches can manifest themselves non unequivocally, leading to certain virtual discrepancies in psychological and/or cognitive data analyses, termed sometimes in literature as, questionable research practices. This communication points to the demand for a deep awareness of the data origins, which can indicate whether the exponential (Malthus type) or the algebraic (Pareto type) statistical distribution ought to be effectively considered in practical interpretation. This is also related to the question of how frequently patients behave in a specific way, and the significance of these behaviors in determining a patient's progression or regression, involving a certain memory effect. In this perspective, it is discussed how a sensitively applied hazardous or triggering factor can be helpful for well-controlled psychological strategic treatments, also those attributable to obsessive/compulsive disorders or even self-injurious behaviors, with their both criticality and complexity exploiting relations between a therapist and a patient.",
+    "authors": [
+      "Adam Gadomski",
+      "Marcel Ausloos",
+      "Tahlia Casey"
+    ],
+    "categories": [
+      "physics.soc-ph",
+      "physics.med-ph"
+    ],
+    "published": "2017-06-27T21:32:13Z",
+    "url": "https://arxiv.org/abs/1706.09399v1",
+    "search_query": "\"cognitive psychology\"",
+    "llm_annotated_terms": [
+      "dynamical systems theory",
+      "deterministic processes",
+      "statistical approaches",
+      "initial conditions",
+      "data origins",
+      "exponential distribution (Malthusian)",
+      "algebraic distribution (Pareto)",
+      "behavior frequency",
+      "patient progression",
+      "patient regression",
+      "memory effect",
+      "triggering factors",
+      "hazardous factors",
+      "psychological treatment strategies",
+      "obsessive-compulsive disorders",
+      "self-injurious behaviors",
+      "therapist-patient relationship",
+      "criticality",
+      "complexity"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2402.08837v1",
+    "title": "Learning to Generate Context-Sensitive Backchannel Smiles for Embodied AI Agents with Applications in Mental Health Dialogues",
+    "abstract": "Addressing the critical shortage of mental health resources for effective screening, diagnosis, and treatment remains a significant challenge. This scarcity underscores the need for innovative solutions, particularly in enhancing the accessibility and efficacy of therapeutic support. Embodied agents with advanced interactive capabilities emerge as a promising and cost-effective supplement to traditional caregiving methods. Crucial to these agents' effectiveness is their ability to simulate non-verbal behaviors, like backchannels, that are pivotal in establishing rapport and understanding in therapeutic contexts but remain under-explored. To improve the rapport-building capabilities of embodied agents we annotated backchannel smiles in videos of intimate face-to-face conversations over topics such as mental health, illness, and relationships. We hypothesized that both speaker and listener behaviors affect the duration and intensity of backchannel smiles. Using cues from speech prosody and language along with the demographics of the speaker and listener, we found them to contain significant predictors of the intensity of backchannel smiles. Based on our findings, we introduce backchannel smile production in embodied agents as a generation problem. Our attention-based generative model suggests that listener information offers performance improvements over the baseline speaker-centric generation approach. Conditioned generation using the significant predictors of smile intensity provides statistically significant improvements in empirical measures of generation quality. Our user study by transferring generated smiles to an embodied agent suggests that agent with backchannel smiles is perceived to be more human-like and is an attractive alternative for non-personal conversations over agent without backchannel smiles.",
+    "authors": [
+      "Maneesh Bilalpur",
+      "Mert Inan",
+      "Dorsa Zeinali",
+      "Jeffrey F. Cohn",
+      "Malihe Alikhani"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2024-02-13T22:47:22Z",
+    "url": "https://arxiv.org/abs/2402.08837v1",
+    "search_query": "\"mental health\" AI",
+    "llm_annotated_terms": [
+      "rapport",
+      "non-verbal behaviors",
+      "backchannels",
+      "backchannel smiles",
+      "speech prosody",
+      "listener behavior",
+      "speaker behavior",
+      "intensity (of smiles)",
+      "duration (of smiles)",
+      "empathy (implied by rapport-building)",
+      "human-likeness (perceived human-like)",
+      "rapport-building"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2405.04048v1",
+    "title": "Philosophy of Cognitive Science in the Age of Deep Learning",
+    "abstract": "Deep learning has enabled major advances across most areas of artificial intelligence research. This remarkable progress extends beyond mere engineering achievements and holds significant relevance for the philosophy of cognitive science. Deep neural networks have made significant strides in overcoming the limitations of older connectionist models that once occupied the centre stage of philosophical debates about cognition. This development is directly relevant to long-standing theoretical debates in the philosophy of cognitive science. Furthermore, ongoing methodological challenges related to the comparative evaluation of deep neural networks stand to benefit greatly from interdisciplinary collaboration with philosophy and cognitive science. The time is ripe for philosophers to explore foundational issues related to deep learning and cognition; this perspective paper surveys key areas where their contributions can be especially fruitful.",
+    "authors": [
+      "Raphaël Millière"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2024-05-07T06:39:47Z",
+    "url": "https://arxiv.org/abs/2405.04048v1",
+    "search_query": "\"cognitive science\"",
+    "llm_annotated_terms": [
+      "connectionism",
+      "cognitive science",
+      "cognition",
+      "philosophy of cognitive science",
+      "methodology of comparative evaluation",
+      "theoretical debates about cognition",
+      "deep neural networks"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2403.00509v1",
+    "title": "Surveying the Dead Minds: Historical-Psychological Text Analysis with Contextualized Construct Representation (CCR) for Classical Chinese",
+    "abstract": "In this work, we develop a pipeline for historical-psychological text analysis in classical Chinese. Humans have produced texts in various languages for thousands of years; however, most of the computational literature is focused on contemporary languages and corpora. The emerging field of historical psychology relies on computational techniques to extract aspects of psychology from historical corpora using new methods developed in natural language processing (NLP). The present pipeline, called Contextualized Construct Representations (CCR), combines expert knowledge in psychometrics (i.e., psychological surveys) with text representations generated via transformer-based language models to measure psychological constructs such as traditionalism, norm strength, and collectivism in classical Chinese corpora. Considering the scarcity of available data, we propose an indirect supervised contrastive learning approach and build the first Chinese historical psychology corpus (C-HI-PSY) to fine-tune pre-trained models. We evaluate the pipeline to demonstrate its superior performance compared with other approaches. The CCR method outperforms word-embedding-based approaches across all of our tasks and exceeds prompting with GPT-4 in most tasks. Finally, we benchmark the pipeline against objective, external data to further verify its validity.",
+    "authors": [
+      "Yuqi Chen",
+      "Sixuan Li",
+      "Ying Li",
+      "Mohammad Atari"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CY"
+    ],
+    "published": "2024-03-01T13:14:45Z",
+    "url": "https://arxiv.org/abs/2403.00509v1",
+    "search_query": "\"computational psychology\"",
+    "llm_annotated_terms": [
+      "historical psychology",
+      "psychological constructs",
+      "traditionalism",
+      "norm strength",
+      "collectivism",
+      "psychometrics",
+      "construct representation",
+      "Contextualized Construct Representations (CCR)",
+      "contrastive learning",
+      "psychological surveys"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2207.07088v1",
+    "title": "Inverse Resource Rational Based Stochastic Driver Behavior Model",
+    "abstract": "Human drivers have limited and time-varying cognitive resources when making decisions in real-world traffic scenarios, which often leads to unique and stochastic behaviors that can not be explained by perfect rationality assumption, a widely accepted premise in modeling driving behaviors that presume drivers rationally make decisions to maximize their own rewards under all circumstances. To explicitly address this disadvantage, this study presents a novel driver behavior model that aims to capture the resource rationality and stochasticity of the human driver's behaviors in realistic longitudinal driving scenarios. The resource rationality principle can provide a theoretic framework to better understand the human cognition processes by modeling human's internal cognitive mechanisms as utility maximization subject to cognitive resource limitations, which can be represented as finite and time-varying preview horizons in the context of driving. An inverse resource rational-based stochastic inverse reinforcement learning approach (IRR-SIRL) is proposed to learn a distribution of the planning horizon and cost function of the human driver with a given series of human demonstrations. A nonlinear model predictive control (NMPC) with a time-varying horizon approach is used to generate driver-specific trajectories by using the learned distributions of the planning horizon and the cost function of the driver. The simulation experiments are carried out using human demonstrations gathered from the driver-in-the-loop driving simulator. The results reveal that the proposed inverse resource rational-based stochastic driver model can address the resource rationality and stochasticity of human driving behaviors in a variety of realistic longitudinal driving scenarios.",
+    "authors": [
+      "Mehmet Ozkan",
+      "Yao Ma"
+    ],
+    "categories": [
+      "eess.SY"
+    ],
+    "published": "2022-07-14T17:40:02Z",
+    "url": "https://arxiv.org/abs/2207.07088v1",
+    "search_query": "\"behavioral modeling\"",
+    "llm_annotated_terms": [
+      "resource rationality",
+      "cognitive resources",
+      "cognitive resource limitations",
+      "stochasticity of behavior",
+      "utility maximization",
+      "planning horizon (preview horizon)",
+      "internal cognitive mechanisms",
+      "decision making",
+      "human cognition",
+      "behavioral variability",
+      "bounded rationality"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2306.09372v1",
+    "title": "SAFER: Situation Aware Facial Emotion Recognition",
+    "abstract": "In this paper, we present SAFER, a novel system for emotion recognition from facial expressions. It employs state-of-the-art deep learning techniques to extract various features from facial images and incorporates contextual information, such as background and location type, to enhance its performance. The system has been designed to operate in an open-world setting, meaning it can adapt to unseen and varied facial expressions, making it suitable for real-world applications. An extensive evaluation of SAFER against existing works in the field demonstrates improved performance, achieving an accuracy of 91.4% on the CAER-S dataset. Additionally, the study investigates the effect of novelty such as face masks during the Covid-19 pandemic on facial emotion recognition and critically examines the limitations of mainstream facial expressions datasets. To address these limitations, a novel dataset for facial emotion recognition is proposed. The proposed dataset and the system are expected to be useful for various applications such as human-computer interaction, security, and surveillance.",
+    "authors": [
+      "Mijanur Palash",
+      "Bharat Bhargava"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2023-06-14T20:42:26Z",
+    "url": "https://arxiv.org/abs/2306.09372v1",
+    "search_query": "\"emotion recognition\"",
+    "llm_annotated_terms": [
+      "emotion recognition",
+      "facial expressions",
+      "contextual information",
+      "open-world setting",
+      "novelty effect",
+      "human-computer interaction",
+      "facial emotion recognition",
+      "dataset limitations",
+      "real-world applications"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2010.13325v5",
+    "title": "Extending Growth Mixture Model to Assess Heterogeneity in Joint Development with Piecewise Linear Trajectories in the Framework of Individual Measurement Occasions",
+    "abstract": "Researchers continue to be interested in exploring the effects that covariates have on the heterogeneity in trajectories. The inclusion of covariates associated with latent classes allows for a more clear understanding of individual differences and a more meaningful interpretation of latent class membership. Many theoretical and empirical studies have focused on investigating heterogeneity in change patterns of a univariate repeated outcome and examining the effects on baseline covariates that inform the cluster formation. However, developmental processes rarely unfold in isolation; therefore, empirical researchers often desire to examine two or more outcomes over time, hoping to understand their joint development where these outcomes and their change patterns are correlated. This study examines the heterogeneity in parallel nonlinear trajectories and identifies baseline characteristics as predictors of latent classes. Our simulation studies show that the proposed model can tell the clusters of parallel trajectories apart and provide unbiased and accurate point estimates with target coverage probabilities for the parameters of interest in general. We illustrate how to apply the model to investigate the heterogeneity in the joint development of reading and mathematics ability from Grade K to 5. In this real-world example, we also demonstrate how to select covariates that contribute the most to the latent classes and transform candidate covariates from a large set into a more manageable set with retaining the meaningful properties of the original set in the structural equation modeling framework.",
+    "authors": [
+      "Jin Liu",
+      "Robert A. Perera"
+    ],
+    "categories": [
+      "stat.ME"
+    ],
+    "published": "2020-10-23T15:32:17Z",
+    "url": "https://arxiv.org/abs/2010.13325v5",
+    "search_query": "\"psychological modeling\"",
+    "llm_annotated_terms": [
+      "latent classes",
+      "heterogeneity in trajectories",
+      "parallel nonlinear trajectories",
+      "joint development",
+      "latent class membership",
+      "baseline covariates",
+      "structural equation modeling",
+      "piecewise linear trajectories",
+      "measurement occasions",
+      "cluster formation",
+      "individual differences",
+      "reading ability",
+      "mathematics ability"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2010.07845v2",
+    "title": "Understanding the Hoarding Behaviors during the COVID-19 Pandemic using Large Scale Social Media Data",
+    "abstract": "The COVID-19 pandemic has affected people's lives around the world on an unprecedented scale. We intend to investigate hoarding behaviors in response to the pandemic using large-scale social media data. First, we collect hoarding-related tweets shortly after the outbreak of the coronavirus. Next, we analyze the hoarding and anti-hoarding patterns of over 42,000 unique Twitter users in the United States from March 1 to April 30, 2020, and dissect the hoarding-related tweets by age, gender, and geographic location. We find the percentage of females in both hoarding and anti-hoarding groups is higher than that of the general Twitter user population. Furthermore, using topic modeling, we investigate the opinions expressed towards the hoarding behavior by categorizing these topics according to demographic and geographic groups. We also calculate the anxiety scores for the hoarding and anti-hoarding related tweets using a lexical approach. By comparing their anxiety scores with the baseline Twitter anxiety score, we reveal further insights. The LIWC anxiety mean for the hoarding-related tweets is significantly higher than the baseline Twitter anxiety mean. Interestingly, beer has the highest calculated anxiety score compared to other hoarded items mentioned in the tweets.",
+    "authors": [
+      "Xupin Zhang",
+      "Hanjia Lyu",
+      "Jiebo Luo"
+    ],
+    "categories": [
+      "cs.SI",
+      "cs.CY"
+    ],
+    "published": "2020-10-15T16:02:25Z",
+    "url": "https://arxiv.org/abs/2010.07845v2",
+    "search_query": "\"behavioral modeling\"",
+    "llm_annotated_terms": [
+      "hoarding behaviors",
+      "hoarding",
+      "anti-hoarding",
+      "age (demographics)",
+      "gender (demographics)",
+      "geographic location (demographics)",
+      "topic modeling",
+      "opinions",
+      "anxiety scores",
+      "lexical approach",
+      "LIWC anxiety",
+      "baseline anxiety",
+      "social media analysis"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2403.17982v1",
+    "title": "Markov chain models for inspecting response dynamics in psychological testing",
+    "abstract": "The importance of considering contextual probabilities in shaping response patterns within psychological testing is underscored, despite the ubiquitous nature of order effects discussed extensively in methodological literature. Drawing from concepts such as path-dependency, first-order autocorrelation, state-dependency, and hysteresis, the present study is an attempt to address how earlier responses serve as an anchor for subsequent answers in tests, surveys, and questionnaires. Introducing the notion of non-commuting observables derived from quantum physics, I highlight their role in characterizing psychological processes and the impact of measurement instruments on participants' responses. We advocate for the utilization of first-order Markov chain modeling to capture and forecast sequential dependencies in survey and test responses. The employment of the first-order Markov chain model lies in individuals' propensity to exhibit partial focus to preceding responses, with recent items most likely exerting a substantial influence on subsequent response selection. This study contributes to advancing our understanding of the dynamics inherent in sequential data within psychological research and provides a methodological framework for conducting longitudinal analyses of response patterns of test and questionnaire.",
+    "authors": [
+      "Andrea Bosco"
+    ],
+    "categories": [
+      "stat.ME",
+      "cs.LG",
+      "math.PR"
+    ],
+    "published": "2024-03-24T17:52:36Z",
+    "url": "https://arxiv.org/abs/2403.17982v1",
+    "search_query": "\"psychological modeling\"",
+    "llm_annotated_terms": [
+      "order effects",
+      "path-dependency",
+      "first-order autocorrelation",
+      "state-dependency",
+      "hysteresis",
+      "anchor (anchoring)",
+      "non-commuting observables",
+      "measurement effects",
+      "first-order Markov chain",
+      "sequential dependencies",
+      "response dynamics",
+      "sequential data analysis",
+      "longitudinal analysis",
+      "response patterns",
+      "survey response behavior",
+      "test response dynamics"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2009.12488v1",
+    "title": "Mental Health and Sensing",
+    "abstract": "Mental health is a global epidemic, affecting close to half a billion people worldwide. Chronic shortage of resources hamper detection and recovery of affected people. Effective sensing technologies can help fight the epidemic through early detection, prediction, and resulting proper treatment. Existing and novel technologies for sensing mental health state could address the aforementioned concerns by activating granular tracking of physiological, behavioral, and social signals pertaining to problems in mental health. Our paper focuses on the available methods of sensing mental health problems through direct and indirect measures. We see how active and passive sensing by technologies as well as reporting from relevant sources can contribute toward these detection methods. We also see available methods of therapeutic treatment available through digital means. We highlight a few key intervention technologies that are being developed by researchers to fight against mental illness issues.",
+    "authors": [
+      "Abdul Kawsar Tushar",
+      "Muhammad Ashad Kabir",
+      "Syed Ishtiaque Ahmed"
+    ],
+    "categories": [
+      "cs.HC"
+    ],
+    "published": "2020-09-26T00:43:51Z",
+    "url": "https://arxiv.org/abs/2009.12488v1",
+    "search_query": "\"mental health\" AI",
+    "llm_annotated_terms": [
+      "mental health",
+      "detection",
+      "prediction",
+      "treatment",
+      "physiological signals",
+      "behavioral signals",
+      "social signals",
+      "active sensing",
+      "passive sensing",
+      "self-report",
+      "intervention",
+      "therapy",
+      "digital therapeutics",
+      "early detection",
+      "tracking",
+      "mental illness",
+      "recovery"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2207.11482v1",
+    "title": "Multimodal Emotion Recognition with Modality-Pairwise Unsupervised Contrastive Loss",
+    "abstract": "Emotion recognition is involved in several real-world applications. With an increase in available modalities, automatic understanding of emotions is being performed more accurately. The success in Multimodal Emotion Recognition (MER), primarily relies on the supervised learning paradigm. However, data annotation is expensive, time-consuming, and as emotion expression and perception depends on several factors (e.g., age, gender, culture) obtaining labels with a high reliability is hard. Motivated by these, we focus on unsupervised feature learning for MER. We consider discrete emotions, and as modalities text, audio and vision are used. Our method, as being based on contrastive loss between pairwise modalities, is the first attempt in MER literature. Our end-to-end feature learning approach has several differences (and advantages) compared to existing MER methods: i) it is unsupervised, so the learning is lack of data labelling cost; ii) it does not require data spatial augmentation, modality alignment, large number of batch size or epochs; iii) it applies data fusion only at inference; and iv) it does not require backbones pre-trained on emotion recognition task. The experiments on benchmark datasets show that our method outperforms several baseline approaches and unsupervised learning methods applied in MER. Particularly, it even surpasses a few supervised MER state-of-the-art.",
+    "authors": [
+      "Riccardo Franceschini",
+      "Enrico Fini",
+      "Cigdem Beyan",
+      "Alessandro Conti",
+      "Federica Arrigoni",
+      "Elisa Ricci"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG",
+      "cs.MM"
+    ],
+    "published": "2022-07-23T10:11:24Z",
+    "url": "https://arxiv.org/abs/2207.11482v1",
+    "search_query": "\"emotion recognition\"",
+    "llm_annotated_terms": [
+      "multimodal emotion recognition",
+      "emotion recognition",
+      "discrete emotions",
+      "emotional expression",
+      "emotion perception",
+      "emotion"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2207.00644v3",
+    "title": "Using a cognitive architecture to consider antiBlackness in design and development of AI systems",
+    "abstract": "How might we use cognitive modeling to consider the ways in which antiblackness, and racism more broadly, impact the design and development of AI systems? We provide a discussion and an example towards an answer to this question. We use the ACT-R/Φ cognitive architecture and an existing knowledge graph system, ConceptNet, to consider this question not only from a cognitive and sociocultural perspective, but also from a physiological perspective. In addition to using a cognitive modeling as a means to explore how antiblackness may manifest in the design and development of AI systems (particularly from a software engineering perspective), we also introduce connections between antiblackness, the Human, and computational cognitive modeling. We argue that the typical eschewing of sociocultural processes and knowledge structures in cognitive architectures and cognitive modeling implicitly furthers a colorblind approach to cognitive modeling and hides sociocultural context that is always present in human behavior and affects cognitive processes.",
+    "authors": [
+      "Christopher L. Dancy"
+    ],
+    "categories": [
+      "cs.CY",
+      "cs.AI"
+    ],
+    "published": "2022-07-01T19:39:13Z",
+    "url": "https://arxiv.org/abs/2207.00644v3",
+    "search_query": "\"cognitive modeling\"",
+    "llm_annotated_terms": [
+      "cognitive architecture",
+      "cognitive modeling",
+      "sociocultural perspective",
+      "physiological perspective",
+      "knowledge structures",
+      "cognitive processes",
+      "colorblind approach",
+      "implicit bias",
+      "social cognition",
+      "conceptual knowledge",
+      "human cognition",
+      "computational cognitive modeling",
+      "sociocultural processes",
+      "representation (knowledge representation)"
+    ]
+  },
+  {
+    "source": "sample",
+    "id": "piaget_1952",
+    "title": "The Origins of Intelligence in Children",
+    "abstract": "This work presents a developmental theory of cognitive development in children, proposing that intelligence emerges from the interaction between biological maturation and environmental experience. The theory describes four major stages of cognitive development: sensorimotor, preoperational, concrete operational, and formal operational. Each stage is characterized by distinct ways of thinking and problem-solving abilities. Cognitive development occurs through processes of assimilation (incorporating new experiences into existing schemas) and accommodation (modifying schemas to fit new experiences). Children construct knowledge through active exploration and problem-solving.",
+    "authors": [
+      "Jean Piaget"
+    ],
+    "subfield": "developmental_psychology",
+    "published": "1952",
+    "url": "",
+    "key_concepts": [
+      "cognitive development",
+      "schemas",
+      "assimilation",
+      "accommodation",
+      "stages"
+    ],
+    "llm_annotated_terms": [
+      "developmental theory",
+      "cognitive development",
+      "intelligence",
+      "biological maturation",
+      "environmental experience",
+      "sensorimotor stage",
+      "preoperational stage",
+      "concrete operational stage",
+      "formal operational stage",
+      "assimilation",
+      "accommodation",
+      "schemas",
+      "knowledge construction",
+      "active exploration",
+      "problem-solving"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2408.14492v1",
+    "title": "Evolvable Psychology Informed Neural Network for Memory Behavior Modeling",
+    "abstract": "Memory behavior modeling is a core issue in cognitive psychology and education. Classical psychological theories typically use memory equations to describe memory behavior, which exhibits insufficient accuracy and controversy, while data-driven memory modeling methods often require large amounts of training data and lack interpretability. Knowledge-informed neural network models have shown excellent performance in fields like physics, but there have been few attempts in the domain of behavior modeling. This paper proposed a psychology theory informed neural networks for memory behavior modeling named PsyINN, where it constructs a framework that combines neural network with differentiating sparse regression, achieving joint optimization. Specifically, to address the controversies and ambiguity of descriptors in memory equations, a descriptor evolution method based on differentiating operators is proposed to achieve precise characterization of descriptors and the evolution of memory theoretical equations. Additionally, a buffering mechanism for the sparse regression and a multi-module alternating iterative optimization method are proposed, effectively mitigating gradient instability and local optima issues. On four large-scale real-world memory behavior datasets, the proposed method surpasses the state-of-the-art methods in prediction accuracy. Ablation study demonstrates the effectiveness of the proposed refinements, and application experiments showcase its potential in inspiring psychological research.",
+    "authors": [
+      "Xiaoxuan Shen",
+      "Zhihai Hu",
+      "Qirong Chen",
+      "Shengyingjie Liu",
+      "Ruxia Liang",
+      "Jianwen Sun"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2024-08-23T01:35:32Z",
+    "url": "https://arxiv.org/abs/2408.14492v1",
+    "search_query": "\"psychological modeling\"",
+    "llm_annotated_terms": [
+      "memory behavior modeling",
+      "cognitive psychology",
+      "memory equations",
+      "memory behavior",
+      "data-driven memory modeling",
+      "knowledge-informed neural network",
+      "psychology theory informed neural networks",
+      "descriptor evolution",
+      "memory theoretical equations",
+      "sparse regression",
+      "buffering mechanism",
+      "gradient instability",
+      "local optima",
+      "ablation study"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2301.07515v1",
+    "title": "Towards the development of Dynamic Networked Psychology Hypotheses",
+    "abstract": "Individual and community psychology plays an important role in disaster management as human behavior exhibit diverse risk perceptions, recognition of the threats that exists, positive and negative emotions, panic, anger, rumor, stress and learned helplessness. These psychological factors are important as lack of attention to these can lead to detrimental outcome of disaster management effort. Disaster psychology has been seen as an emerging area of research and practice which deals with understanding of the psychological impact of individuals and community aftermath of the disasters. The aim of this paper is to put forward the conceptualization and development of dynamic networked psychology as a theoretical framework and its implications in exploring emotional contagion during disasters. We advocate theories of structural network dynamics can be used to construct DNP for exploring individuals as well as community coping mechanisms for improving preparedness, response and recovery of disasters. The advent of computational social science promotes the empirical modelling and analysis of massive volume of user data by inferring meaningful patterns for finding answers to important social and behavioral science research questions dealing with individual and community coping ability. In presenting a theoretical framework, we suggest that the underlying assumptions and integration of theories of social influence can be used to explore networks of emotional contagion for disasters.",
+    "authors": [
+      "Liaquat Hossain"
+    ],
+    "categories": [
+      "physics.soc-ph",
+      "cs.SI"
+    ],
+    "published": "2023-01-15T16:25:49Z",
+    "url": "https://arxiv.org/abs/2301.07515v1",
+    "search_query": "\"computational psychology\"",
+    "llm_annotated_terms": [
+      "risk perception",
+      "positive and negative emotions",
+      "panic",
+      "anger",
+      "rumor",
+      "stress",
+      "learned helplessness",
+      "disaster psychology",
+      "emotional contagion",
+      "coping mechanisms",
+      "preparedness",
+      "response",
+      "recovery",
+      "structural network dynamics",
+      "social influence",
+      "community psychology",
+      "individual behavior",
+      "computational social science",
+      "networked psychology",
+      "dynamic networks"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2509.24782v1",
+    "title": "Large language models for behavioral modeling: A literature survey",
+    "abstract": "In recent years, large language models (LLMs) have been extensively utilized for behavioral modeling, for example, to automatically generate sequence diagrams. However, no overview of this work has been published yet. Such an overview will help identify future research directions and inform practitioners and educators about the effectiveness of LLMs in assisting behavioral modeling. This study aims to provide an overview of the existing research on the use of LLMs for behavioral modeling, particularly focusing on use case and sequence diagrams. Through a term-based search, we filtered and identified 14 relevant primary studies. Our analysis of the selected primary studies reveals that LLMs have demonstrated promising results in automatically generating use case and sequence diagrams. In addition, we found that most of the current literature lacks expert-based evaluations and has mainly used GPT-based models. Therefore, future work should evaluate a broader range of LLMs for behavioral modeling and involve domain experts to evaluate the output of LLMs.",
+    "authors": [
+      "Muhammad Laiq"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "published": "2025-09-29T13:43:02Z",
+    "url": "https://arxiv.org/abs/2509.24782v1",
+    "search_query": "\"behavioral modeling\"",
+    "llm_annotated_terms": []
+  },
+  {
+    "source": "arxiv",
+    "id": "2504.12337v1",
+    "title": "\"It Listens Better Than My Therapist\": Exploring Social Media Discourse on LLMs as Mental Health Tool",
+    "abstract": "The emergence of generative AI chatbots such as ChatGPT has prompted growing public and academic interest in their role as informal mental health support tools. While early rule-based systems have been around for several years, large language models (LLMs) offer new capabilities in conversational fluency, empathy simulation, and availability. This study explores how users engage with LLMs as mental health tools by analyzing over 10,000 TikTok comments from videos referencing LLMs as mental health tools. Using a self-developed tiered coding schema and supervised classification models, we identify user experiences, attitudes, and recurring themes. Results show that nearly 20% of comments reflect personal use, with these users expressing overwhelmingly positive attitudes. Commonly cited benefits include accessibility, emotional support, and perceived therapeutic value. However, concerns around privacy, generic responses, and the lack of professional oversight remain prominent. It is important to note that the user feedback does not indicate which therapeutic framework, if any, the LLM-generated output aligns with. While the findings underscore the growing relevance of AI in everyday practices, they also highlight the urgent need for clinical and ethical scrutiny in the use of AI for mental health support.",
+    "authors": [
+      "Anna-Carolina Haensch"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.CY",
+      "cs.HC",
+      "cs.SI"
+    ],
+    "published": "2025-04-14T17:37:32Z",
+    "url": "https://arxiv.org/abs/2504.12337v1",
+    "search_query": "\"mental health\" AI",
+    "llm_annotated_terms": [
+      "empathy simulation",
+      "emotional support",
+      "therapeutic value",
+      "accessibility (of mental health support)",
+      "privacy concerns (in therapeutic context)",
+      "professional oversight",
+      "user attitudes",
+      "personal use (of mental health tools)",
+      "perceived therapeutic efficacy",
+      "clinical scrutiny",
+      "ethical scrutiny",
+      "informal mental health support",
+      "conversational fluency",
+      "help-seeking behavior"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2407.09563v1",
+    "title": "Psychology of Artificial Intelligence: Epistemological Markers of the Cognitive Analysis of Neural Networks",
+    "abstract": "What is the \"nature\" of the cognitive processes and contents of an artificial neural network? In other words, how does an artificial intelligence fundamentally \"think,\" and in what form does its knowledge reside? The psychology of artificial intelligence, as predicted by Asimov (1950), aims to study this AI probing and explainability-sensitive matter. This study requires a neuronal level of cognitive granularity, so as not to be limited solely to the secondary macro-cognitive results (such as cognitive and cultural biases) of synthetic neural cognition. A prerequisite for examining the latter is to clarify some epistemological milestones regarding the cognitive status we can attribute to its phenomenology.",
+    "authors": [
+      "Michael Pichat"
+    ],
+    "categories": [
+      "q-bio.NC",
+      "cs.AI"
+    ],
+    "published": "2024-07-04T12:53:05Z",
+    "url": "https://arxiv.org/abs/2407.09563v1",
+    "search_query": "\"cognitive psychology\"",
+    "llm_annotated_terms": [
+      "cognitive processes",
+      "knowledge representation",
+      "explainability",
+      "cognitive granularity",
+      "macro-cognition",
+      "cognitive biases",
+      "phenomenology",
+      "neural cognition",
+      "epistemological milestones",
+      "cognitive analysis"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2406.10598v1",
+    "title": "Double Multi-Head Attention Multimodal System for Odyssey 2024 Speech Emotion Recognition Challenge",
+    "abstract": "As computer-based applications are becoming more integrated into our daily lives, the importance of Speech Emotion Recognition (SER) has increased significantly. Promoting research with innovative approaches in SER, the Odyssey 2024 Speech Emotion Recognition Challenge was organized as part of the Odyssey 2024 Speaker and Language Recognition Workshop. In this paper we describe the Double Multi-Head Attention Multimodal System developed for this challenge. Pre-trained self-supervised models were used to extract informative acoustic and text features. An early fusion strategy was adopted, where a Multi-Head Attention layer transforms these mixed features into complementary contextualized representations. A second attention mechanism is then applied to pool these representations into an utterance-level vector. Our proposed system achieved the third position in the categorical task ranking with a 34.41% Macro-F1 score, where 31 teams participated in total.",
+    "authors": [
+      "Federico Costa",
+      "Miquel India",
+      "Javier Hernando"
+    ],
+    "categories": [
+      "eess.AS",
+      "cs.SD"
+    ],
+    "published": "2024-06-15T11:11:06Z",
+    "url": "https://arxiv.org/abs/2406.10598v1",
+    "search_query": "\"emotion recognition\"",
+    "llm_annotated_terms": [
+      "emotion recognition",
+      "speech emotion recognition",
+      "affective states",
+      "emotional classification",
+      "utterance-level representation",
+      "contextualized representations"
+    ]
+  },
+  {
+    "source": "sample",
+    "id": "mischel_1968",
+    "title": "Personality and Assessment",
+    "abstract": "This work challenges traditional trait theories of personality, arguing that behavior is more strongly influenced by situational factors than by stable personality traits. The author proposes a cognitive-social learning approach that emphasizes the interaction between person and situation. The book introduces the concept of cognitive-affective personality systems, suggesting that behavior results from the interaction of cognitive units (encoding, expectations, affects) with situational variables. This perspective led to the development of modern personality theories that integrate traits and situational influences.",
+    "authors": [
+      "Walter Mischel"
+    ],
+    "subfield": "personality_psychology",
+    "published": "1968",
+    "url": "",
+    "key_concepts": [
+      "person-situation debate",
+      "cognitive-affective systems",
+      "situational factors",
+      "social learning"
+    ],
+    "llm_annotated_terms": [
+      "trait theories of personality",
+      "situational factors",
+      "cognitive-social learning",
+      "person-situation interaction",
+      "cognitive-affective personality systems",
+      "encoding",
+      "expectations",
+      "affects",
+      "behavioral variability",
+      "interaction of person and situation"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "1911.09937v10",
+    "title": "Two-step growth mixture model to examine heterogeneity in nonlinear trajectories",
+    "abstract": "Empirical researchers are usually interested in investigating the impacts of baseline covariates have when uncovering sample heterogeneity and separating samples into more homogeneous groups. However, a considerable number of studies in the structural equation modeling (SEM) framework usually start with vague hypotheses in terms of heterogeneity and possible reasons. It suggests that (1) the determination and specification of a proper model with covariates is not straightforward, and (2) the exploration process may be computational intensive given that a model in the SEM framework is usually complicated and the pool of candidate covariates is usually huge in the psychological and educational domain where the SEM framework is widely employed. Following Bakk and Kuha (2017), this article presents a two-step growth mixture model (GMM) that examines the relationship between latent classes of nonlinear trajectories and baseline characteristics. Our simulation studies demonstrate that the proposed model is capable of clustering the nonlinear change patterns, and estimating the parameters of interest unbiasedly, precisely, as well as exhibiting appropriate confidence interval coverage. Considering the pool of candidate covariates is usually huge and highly correlated, this study also proposes implementing exploratory factor analysis (EFA) to reduce the dimension of covariate space. We illustrate how to use the hybrid method, the two-step GMM and EFA, to efficiently explore the heterogeneity of nonlinear trajectories of longitudinal mathematics achievement data.",
+    "authors": [
+      "Jin Liu",
+      "Le Kang",
+      "Roy T. Sabo",
+      "Robert M. Kirkpatrick",
+      "Robert A. Perera"
+    ],
+    "categories": [
+      "stat.ME"
+    ],
+    "published": "2019-11-22T09:17:47Z",
+    "url": "https://arxiv.org/abs/1911.09937v10",
+    "search_query": "\"behavioral modeling\"",
+    "llm_annotated_terms": [
+      "growth mixture model",
+      "latent classes",
+      "nonlinear trajectories",
+      "structural equation modeling",
+      "baseline covariates",
+      "exploratory factor analysis",
+      "heterogeneity",
+      "longitudinal data",
+      "confidence interval coverage",
+      "parameter estimation"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "1503.06692v1",
+    "title": "Persistence in voting behavior: stronghold dynamics in elections",
+    "abstract": "Influence among individuals is at the core of collective social phenomena such as the dissemination of ideas, beliefs or behaviors, social learning and the diffusion of innovations. Different mechanisms have been proposed to implement inter-agent influence in social models from the voter model, to majority rules, to the Granoveter model. Here we advance in this direction by confronting the recently introduced Social Influence and Recurrent Mobility (SIRM) model, that reproduces generic features of vote-shares at different geographical levels, with data in the US presidential elections. Our approach incorporates spatial and population diversity as inputs for the opinion dynamics while individuals' mobility provides a proxy for social context, and peer imitation accounts for social influence. The model captures the observed stationary background fluctuations in the vote-shares across counties. We study the so-called political strongholds, i.e., locations where the votes-shares for a party are systematically higher than average. A quantitative definition of a stronghold by means of persistence in time of fluctuations in the voting spatial distribution is introduced, and results from the US Presidential Elections during the period 1980-2012 are analyzed within this framework. We compare electoral results with simulations obtained with the SIRM model finding a good agreement both in terms of the number and the location of strongholds. The strongholds duration is also systematically characterized in the SIRM model. The results compare well with the electoral results data revealing an exponential decay in the persistence of the strongholds with time.",
+    "authors": [
+      "Toni Pérez",
+      "Juan Fernández-Gracia",
+      "Jose J. Ramasco",
+      "Víctor M. Eguíluz"
+    ],
+    "categories": [
+      "physics.soc-ph",
+      "cs.SI"
+    ],
+    "published": "2015-03-23T15:48:30Z",
+    "url": "https://arxiv.org/abs/1503.06692v1",
+    "search_query": "\"behavioral modeling\"",
+    "llm_annotated_terms": [
+      "social influence",
+      "social learning",
+      "peer imitation",
+      "opinion dynamics",
+      "social context",
+      "diffusion of innovations",
+      "social contagion",
+      "collective social phenomena",
+      "influence among individuals",
+      "spatial diversity",
+      "population diversity",
+      "persistence (of behavior)",
+      "behavioral persistence",
+      "imitation"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2210.08583v1",
+    "title": "Grip force as a functional window to somatosensory cognition",
+    "abstract": "Analysis of grip force signals tailored to hand and finger movement evolution and changes in grip force control during task execution provide unprecedented functional insight into somatosensory cognition. Somatosensory cognition is the basis of our ability to act upon and to transform the physical world around us, to recognize objects on the basis of touch alone, and to grasp them with the right amount of force for lifting and manipulating them. Recent technology has permitted the wireless monitoring of grip force signals recorded from biosensors in the palm of the human hand to track and trace human grip forces deployed in cognitive tasks executed under conditions of variable sensory (visual, auditory) input. Non-invasive multi-finger grip force sensor technology can be exploited to explore functional interactions between somatosensory brain mechanisms and motor control, in particular during learning a novel and complex tasks where the planning and strategic execution of hand movements is essential. Under the light of a comprehensive overview of recent discoveries into the functional significance of human grip force variations, perspectives for future studies in cognition, in particular the cognitive control of strategic hand movements in robot-assisted precision tasks, are pointed out.",
+    "authors": [
+      "Birgitta Dresp-Langley"
+    ],
+    "categories": [
+      "q-bio.NC"
+    ],
+    "published": "2022-10-16T16:58:07Z",
+    "url": "https://arxiv.org/abs/2210.08583v1",
+    "search_query": "\"human cognition\" modeling",
+    "llm_annotated_terms": [
+      "somatosensory cognition",
+      "grip force control",
+      "motor control",
+      "sensorimotor learning",
+      "sensory input",
+      "tactile recognition",
+      "haptic perception",
+      "motor planning",
+      "strategic execution",
+      "multisensory integration",
+      "sensorimotor integration",
+      "cognitive control",
+      "skill learning",
+      "biomonitoring of motor behavior"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2009.05274v6",
+    "title": "Measuring Cognitive Abilities in the Wild: Validating a Population-Scale Game-Based Cognitive Assessment",
+    "abstract": "Rapid individual cognitive phenotyping holds the potential to revolutionize domains as wide-ranging as personalized learning, employment practices, and precision psychiatry. Going beyond limitations imposed by traditional lab-based experiments, new efforts have been underway towards greater ecological validity and participant diversity to capture the full range of individual differences in cognitive abilities and behaviors across the general population. Building on this, we developed Skill Lab, a novel game-based tool that simultaneously assesses a broad suite of cognitive abilities while providing an engaging narrative. Skill Lab consists of six mini-games as well as 14 established cognitive ability tasks. Using a popular citizen science platform (N = 10725), we conducted a comprehensive validation in the wild of a game-based cognitive assessment suite. Based on the game and validation task data, we constructed reliable models to simultaneously predict eight cognitive abilities based on the users' in-game behavior. Follow-'-up validation tests revealed that the models can discriminate nuances contained within each separate cognitive ability as well as capture a shared main factor of generalized cognitive ability. Our game-based measures are five times faster to complete than the equivalent task-based measures and replicate previous findings on the decline of certain cognitive abilities with age in our large cross-sectional population sample (N = 6369). Taken together, our results demonstrate the feasibility of rapid in-the-wild systematic assessment of cognitive abilities as a promising first step towards population-scale benchmarking and individualized mental health diagnostics.",
+    "authors": [
+      "Mads Kock Pedersen",
+      "Carlos Mauricio Castaño Díaz",
+      "Qian Janice Wang",
+      "Mario Alejandro Alba-Marrugo",
+      "Ali Amidi",
+      "Rajiv Vaid Basaiawmoit",
+      "Carsten Bergenholtz",
+      "Morten H. Christiansen",
+      "Miroslav Gajdacz",
+      "Ralph Hertwig",
+      "Byurakn Ishkhanyan",
+      "Kim Klyver",
+      "Nicolai Ladegaard",
+      "Kim Mathiasen",
+      "Christine Parsons",
+      "Janet Rafner",
+      "Anders Ryom Villadsen",
+      "Mikkel Wallentin",
+      "Blanka Zana",
+      "Jacob Friis Sherson"
+    ],
+    "categories": [
+      "physics.soc-ph",
+      "econ.GN"
+    ],
+    "published": "2020-09-11T08:19:06Z",
+    "url": "https://arxiv.org/abs/2009.05274v6",
+    "search_query": "\"cognitive science\"",
+    "llm_annotated_terms": [
+      "cognitive phenotyping",
+      "ecological validity",
+      "individual differences",
+      "cognitive abilities",
+      "game-based cognitive assessment",
+      "mini-games",
+      "cognitive ability tasks",
+      "in-game behavior",
+      "predictive modeling",
+      "generalized cognitive ability",
+      "g factor",
+      "age-related cognitive decline",
+      "cross-sectional sample",
+      "population-scale assessment",
+      "individualized mental health diagnostics",
+      "validation",
+      "reliability",
+      "behavioral measures"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2507.08804v1",
+    "title": "Cognitive Dissonance Artificial Intelligence (CD-AI): The Mind at War with Itself. Harnessing Discomfort to Sharpen Critical Thinking",
+    "abstract": "AI-augmented systems are traditionally designed to streamline human decision-making by minimizing cognitive load, clarifying arguments, and optimizing efficiency. However, in a world where algorithmic certainty risks becoming an Orwellian tool of epistemic control, true intellectual growth demands not passive acceptance but active struggle. Drawing on the dystopian visions of George Orwell and Philip K. Dick - where reality is unstable, perception malleable, and truth contested - this paper introduces Cognitive Dissonance AI (CD-AI): a novel framework that deliberately sustains uncertainty rather than resolving it. CD-AI does not offer closure, but compels users to navigate contradictions, challenge biases, and wrestle with competing truths. By delaying resolution and promoting dialectical engagement, CD-AI enhances reflective reasoning, epistemic humility, critical thinking, and adaptability in complex decision-making. This paper examines the theoretical foundations of the approach, presents an implementation model, explores its application in domains such as ethics, law, politics, and science, and addresses key ethical concerns - including decision paralysis, erosion of user autonomy, cognitive manipulation, and bias in AI reasoning. In reimagining AI as an engine of doubt rather than a deliverer of certainty, CD-AI challenges dominant paradigms of AI-augmented reasoning and offers a new vision - one in which AI sharpens the mind not by resolving conflict, but by sustaining it. Rather than reinforcing Huxleyan complacency or pacifying the user into intellectual conformity, CD-AI echoes Nietzsche's vision of the Uebermensch - urging users to transcend passive cognition through active epistemic struggle.",
+    "authors": [
+      "Delia Deliu"
+    ],
+    "categories": [
+      "cs.HC",
+      "cs.CY"
+    ],
+    "published": "2025-04-23T03:18:05Z",
+    "url": "https://arxiv.org/abs/2507.08804v1",
+    "search_query": "\"human cognition\" modeling",
+    "llm_annotated_terms": [
+      "cognitive dissonance",
+      "epistemic humility",
+      "reflective reasoning",
+      "critical thinking",
+      "bias",
+      "bias in AI reasoning",
+      "decision paralysis",
+      "cognitive manipulation",
+      "autonomy (user autonomy)",
+      "adaptive decision-making",
+      "epistemic control",
+      "dialectical engagement",
+      "confirmation bias",
+      "cognitive load",
+      "perception (malleable perception)",
+      "attitude change",
+      "motivated reasoning"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2505.16274v1",
+    "title": "Multimodal AI-based visualization of strategic leaders' emotional dynamics: a deep behavioral analysis of Trump's trade war discourse",
+    "abstract": "This study investigates the emotional rhythms and behavioral mechanisms of dominant political leaders in strategic decision-making. Using the Trump administration's 125 percent tariff hike on China as a case, it adopts a Multimodal Cognitive Behavioral Modeling framework. This includes micro-expression tracking, acoustic intonation analysis, semantic flow modeling, cognitive load simulation, and strategic behavior mapping to construct a full-cycle simulation of emotion, motivation, and output. Results reveal that Trump's decisions are not driven by rational deduction, but emerge from dominance-coherence rhythms. A six-axis National Strategic Tempo Intervention Framework is proposed to support anticipatory policy modeling.",
+    "authors": [
+      "Wei Meng"
+    ],
+    "categories": [
+      "cs.CY"
+    ],
+    "published": "2025-05-22T06:19:57Z",
+    "url": "https://arxiv.org/abs/2505.16274v1",
+    "search_query": "\"behavioral modeling\"",
+    "llm_annotated_terms": [
+      "emotional dynamics",
+      "emotional rhythms",
+      "behavioral mechanisms",
+      "strategic decision-making",
+      "Multimodal Cognitive Behavioral Modeling",
+      "micro-expression tracking",
+      "acoustic intonation analysis",
+      "semantic flow modeling",
+      "cognitive load simulation",
+      "strategic behavior mapping",
+      "emotion",
+      "motivation",
+      "dominance-coherence rhythms",
+      "anticipatory policy modeling",
+      "behavioral analysis",
+      "emotional dynamics"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2504.14996v1",
+    "title": "Distributed Cognition for AI-supported Remote Operations: Challenges and Research Directions",
+    "abstract": "This paper investigates the impact of artificial intelligence integration on remote operations, emphasising its influence on both distributed and team cognition. As remote operations increasingly rely on digital interfaces, sensors, and networked communication, AI-driven systems transform decision-making processes across domains such as air traffic control, industrial automation, and intelligent ports. However, the integration of AI introduces significant challenges, including the reconfiguration of human-AI team cognition, the need for adaptive AI memory that aligns with human distributed cognition, and the design of AI fallback operators to maintain continuity during communication disruptions. Drawing on theories of distributed and team cognition, we analyse how cognitive overload, loss of situational awareness, and impaired team coordination may arise in AI-supported environments. Based on real-world intelligent port scenarios, we propose research directions that aim to safeguard human reasoning and enhance collaborative decision-making in AI-augmented remote operations.",
+    "authors": [
+      "Rune Møberg Jacobsen",
+      "Joel Wester",
+      "Helena Bøjer Djernæs",
+      "Niels van Berkel"
+    ],
+    "categories": [
+      "cs.HC"
+    ],
+    "published": "2025-04-21T09:53:49Z",
+    "url": "https://arxiv.org/abs/2504.14996v1",
+    "search_query": "\"human cognition\" modeling",
+    "llm_annotated_terms": [
+      "distributed cognition",
+      "team cognition",
+      "decision-making",
+      "human-AI team cognition",
+      "adaptive memory",
+      "cognitive overload",
+      "situational awareness",
+      "team coordination",
+      "collaborative decision-making",
+      "human reasoning"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "1711.01767v1",
+    "title": "Kurt Lewin, psychological constructs and sources of brain cognitive activity",
+    "abstract": "Understanding mind-brain-environment relations is one of the key topics in psychology. Kurt Lewin, inspired by theoretical physics, tried to establish topological and vector psychology analyzing patterns of interaction between the individual and her/his environment. The time is ripe to reformulate his ambitious goals, searching for ways to interpret objectively measured brain processes in terms of suitable psychological constructs. Connecting cognitive and social psychology constructs to neurophenomics, as it is done now in psychiatry, should ground them in physical reality.",
+    "authors": [
+      "Włodzisław Duch"
+    ],
+    "categories": [
+      "q-bio.NC"
+    ],
+    "published": "2017-11-06T07:58:14Z",
+    "url": "https://arxiv.org/abs/1711.01767v1",
+    "search_query": "\"cognitive psychology\"",
+    "llm_annotated_terms": [
+      "mind-brain-environment relations",
+      "topological psychology",
+      "vector psychology",
+      "patterns of interaction",
+      "psychological constructs",
+      "cognitive psychology constructs",
+      "social psychology constructs",
+      "neurophenomics",
+      "brain cognitive activity",
+      "psychophysics"
+    ]
+  },
+  {
+    "source": "sample",
+    "id": "bandura_1977",
+    "title": "Self-efficacy: Toward a unifying theory of behavioral change",
+    "abstract": "This article presents a cognitive theory of motivation that integrates concepts from social learning and cognitive approaches. The theory proposes that self-efficacy expectations—beliefs about one's capabilities to organize and execute the courses of action required to manage prospective situations—serve as a major determinant of people's choice of activities, effort expenditure, persistence, and thought patterns. Self-efficacy expectations are distinguished from related constructs such as outcome expectations, self-concept, and perceived control. Empirical support for the theory is reviewed, and implications for behavioral change are discussed.",
+    "authors": [
+      "Albert Bandura"
+    ],
+    "subfield": "cognitive_psychology",
+    "published": "1977",
+    "url": "",
+    "key_concepts": [
+      "self-efficacy",
+      "cognitive theory",
+      "motivation",
+      "behavioral change"
+    ],
+    "llm_annotated_terms": [
+      "self-efficacy",
+      "cognitive theory of motivation",
+      "social learning",
+      "self-efficacy expectations",
+      "outcome expectations",
+      "self-concept",
+      "perceived control",
+      "behavioral change",
+      "effort expenditure",
+      "persistence",
+      "thought patterns"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "0412059v1",
+    "title": "Vector Symbolic Architectures answer Jackendoff's challenges for cognitive neuroscience",
+    "abstract": "Jackendoff (2002) posed four challenges that linguistic combinatoriality and rules of language present to theories of brain function. The essence of these problems is the question of how to neurally instantiate the rapid construction and transformation of the compositional structures that are typically taken to be the domain of symbolic processing. He contended that typical connectionist approaches fail to meet these challenges and that the dialogue between linguistic theory and cognitive neuroscience will be relatively unproductive until the importance of these problems is widely recognised and the challenges answered by some technical innovation in connectionist modelling. This paper claims that a little-known family of connectionist models (Vector Symbolic Architectures) are able to meet Jackendoff's challenges.",
+    "authors": [
+      "Ross W. Gayler"
+    ],
+    "categories": [
+      "cs.NE",
+      "cs.AI"
+    ],
+    "published": "2004-12-13T08:00:55Z",
+    "url": "https://arxiv.org/abs/cs/0412059v1",
+    "search_query": "\"cognitive science\"",
+    "llm_annotated_terms": [
+      "linguistic combinatoriality",
+      "compositional structures",
+      "symbolic processing",
+      "connectionist approaches",
+      "cognitive neuroscience",
+      "Vector Symbolic Architectures",
+      "neural instantiation",
+      "representation transformation",
+      "compositionality"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2405.08992v2",
+    "title": "Contextual Emotion Recognition using Large Vision Language Models",
+    "abstract": "\"How does the person in the bounding box feel?\" Achieving human-level recognition of the apparent emotion of a person in real world situations remains an unsolved task in computer vision. Facial expressions are not enough: body pose, contextual knowledge, and commonsense reasoning all contribute to how humans perform this emotional theory of mind task. In this paper, we examine two major approaches enabled by recent large vision language models: 1) image captioning followed by a language-only LLM, and 2) vision language models, under zero-shot and fine-tuned setups. We evaluate the methods on the Emotions in Context (EMOTIC) dataset and demonstrate that a vision language model, fine-tuned even on a small dataset, can significantly outperform traditional baselines. The results of this work aim to help robots and agents perform emotionally sensitive decision-making and interaction in the future.",
+    "authors": [
+      "Yasaman Etesam",
+      "Özge Nilay Yalçın",
+      "Chuxuan Zhang",
+      "Angelica Lim"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2024-05-14T23:24:12Z",
+    "url": "https://arxiv.org/abs/2405.08992v2",
+    "search_query": "\"emotion recognition\"",
+    "llm_annotated_terms": [
+      "emotional theory of mind",
+      "apparent emotion recognition",
+      "facial expressions",
+      "body pose (nonverbal behavior)",
+      "contextual knowledge",
+      "commonsense reasoning",
+      "emotion recognition",
+      "emotion perception",
+      "emotionally sensitive decision-making",
+      "social cognition"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "1405.6427v1",
+    "title": "Applying Quantum Principles to Psychology",
+    "abstract": "This article starts out with a detailed example illustrating the utility of applying quantum probability to psychology. Then it describes several alternative mathematical methods for mapping fundamental quantum concepts (such as state preparation, measurement, state evolution) to fundamental psychological concepts (such as stimulus, response, information processing). For state preparation, we consider both pure states and densities with mixtures. For measurement, we consider projective measurements and positive operator valued measurements. The advantages and disadvantages of each method with respect to applications in psychology are discussed.",
+    "authors": [
+      "Jerome R Busemeyer",
+      "Zheng Wang",
+      "Andrei Khrennikov",
+      "Irina Basieva"
+    ],
+    "categories": [
+      "q-bio.NC",
+      "quant-ph"
+    ],
+    "published": "2014-05-25T20:30:58Z",
+    "url": "https://arxiv.org/abs/1405.6427v1",
+    "search_query": "\"cognitive psychology\"",
+    "llm_annotated_terms": [
+      "stimulus",
+      "response",
+      "information processing",
+      "state preparation",
+      "state evolution",
+      "measurement",
+      "pure states",
+      "density matrices",
+      "mixtures",
+      "projective measurements",
+      "positive operator valued measurements",
+      "quantum probability"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2501.07653v2",
+    "title": "Large Language Models for Interpretable Mental Health Diagnosis",
+    "abstract": "We propose a clinical decision support system (CDSS) for mental health diagnosis that combines the strengths of large language models (LLMs) and constraint logic programming (CLP). Having a CDSS is important because of the high complexity of diagnostic manuals used by mental health professionals and the danger of diagnostic errors. Our CDSS is a software tool that uses an LLM to translate diagnostic manuals to a logic program and solves the program using an off-the-shelf CLP engine to query a patient's diagnosis based on the encoded rules and provided data. By giving domain experts the opportunity to inspect the LLM-generated logic program, and making modifications when needed, our CDSS ensures that the diagnosis is not only accurate but also interpretable. We experimentally compare it with two baseline approaches of using LLMs: diagnosing patients using the LLM-only approach, and using the LLM-generated logic program but without expert inspection. The results show that, while LLMs are extremely useful in generating candidate logic programs, these programs still require expert inspection and modification to guarantee faithfulness to the official diagnostic manuals. Additionally, ethical concerns arise from the direct use of patient data in LLMs, underscoring the need for a safer hybrid approach like our proposed method.",
+    "authors": [
+      "Brian Hyeongseok Kim",
+      "Chao Wang"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.LO"
+    ],
+    "published": "2025-01-13T19:26:09Z",
+    "url": "https://arxiv.org/abs/2501.07653v2",
+    "search_query": "\"mental health\" AI",
+    "llm_annotated_terms": [
+      "mental health diagnosis",
+      "clinical decision support system",
+      "diagnostic manuals",
+      "diagnostic errors",
+      "faithfulness to diagnostic manuals",
+      "interpretability",
+      "patient data privacy",
+      "clinical diagnosis",
+      "expert inspection",
+      "mental health assessment"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2506.16702v1",
+    "title": "Large Language Models as Psychological Simulators: A Methodological Guide",
+    "abstract": "Large language models (LLMs) offer emerging opportunities for psychological and behavioral research, but methodological guidance is lacking. This article provides a framework for using LLMs as psychological simulators across two primary applications: simulating roles and personas to explore diverse contexts, and serving as computational models to investigate cognitive processes. For simulation, we present methods for developing psychologically grounded personas that move beyond demographic categories, with strategies for validation against human data and use cases ranging from studying inaccessible populations to prototyping research instruments. For cognitive modeling, we synthesize emerging approaches for probing internal representations, methodological advances in causal interventions, and strategies for relating model behavior to human cognition. We address overarching challenges including prompt sensitivity, temporal limitations from training data cutoffs, and ethical considerations that extend beyond traditional human subjects review. Throughout, we emphasize the need for transparency about model capabilities and constraints. Together, this framework integrates emerging empirical evidence about LLM performance--including systematic biases, cultural limitations, and prompt brittleness--to help researchers wrangle these challenges and leverage the unique capabilities of LLMs in psychological research.",
+    "authors": [
+      "Zhicheng Lin"
+    ],
+    "categories": [
+      "cs.CY",
+      "cs.AI",
+      "cs.CL",
+      "cs.HC"
+    ],
+    "published": "2025-06-20T02:45:23Z",
+    "url": "https://arxiv.org/abs/2506.16702v1",
+    "search_query": "\"psychological modeling\"",
+    "llm_annotated_terms": [
+      "psychological simulators",
+      "personas",
+      "psychologically grounded personas",
+      "cognitive modeling",
+      "internal representations",
+      "causal interventions",
+      "model behavior",
+      "human cognition",
+      "systematic biases",
+      "cultural limitations",
+      "prompt sensitivity",
+      "prompt brittleness",
+      "validation against human data",
+      "simulation",
+      "computational models",
+      "temporal limitations",
+      "ethical considerations"
+    ]
+  },
+  {
+    "source": "arxiv",
+    "id": "2209.02966v1",
+    "title": "ExpTrialMng: A Universal Experiment Trial Manager for AR/VR/MR Experiments based on Unity",
+    "abstract": "Based on the improvement of recent virtual and augmented reality (VR and AR) Head Mounted Display (HMD), there have been attempts to adopt VR and AR in various fields. Since VR and AR could provide more immersive experimental environments and stimuli than 2D settings in a cost-efficient way, psychological and cognitive researchers are particularly interested in using these platforms. However, there is still an entry barrier for researchers who are not familiar with Unity programming, and current VR/AR HMDs could also cause unexpected errors during the experiment. Therefore, we developed a Unity library that can be adopted in various experiments universally and assist researchers in developing their own. Our library provides functions related to trial assignment and results saving. That way, researchers can easily implement the essential functions of their psychological experiments. We also made a function that enables proceeding with the experiment from a specific trial point to handle unexpected errors caused by HMD tracking loss issues during the experiment. We expect our library could invite researchers from various disciplines and help them acquire valuable insights in VR/AR environments.",
+    "authors": [
+      "Jinwook Kim",
+      "Yee Joon Kim",
+      "Jeongmi Lee"
+    ],
+    "categories": [
+      "cs.HC"
+    ],
+    "published": "2022-09-07T07:18:06Z",
+    "url": "https://arxiv.org/abs/2209.02966v1",
+    "search_query": "\"psychological experiment\" computational",
+    "llm_annotated_terms": [
+      "psychological experiments",
+      "cognitive researchers",
+      "immersive experimental environments",
+      "stimuli",
+      "trial assignment",
+      "results saving",
+      "experiment trial",
+      "HMD tracking loss"
+    ]
+  },
+  {
+    "source": "sample",
+    "id": "festinger_1957",
+    "title": "A Theory of Cognitive Dissonance",
+    "abstract": "Cognitive dissonance theory proposes that individuals experience psychological discomfort when they hold two or more contradictory beliefs, ideas, or values, or when their beliefs are inconsistent with their actions. This dissonance creates a motivational drive to reduce the inconsistency by changing beliefs, attitudes, or behaviors. The theory explains various phenomena including attitude change, decision justification, and effort justification. Cognitive dissonance can be reduced through changing cognitions, adding new cognitions, or decreasing the importance of conflicting cognitions.",
+    "authors": [
+      "Leon Festinger"
+    ],
+    "subfield": "social_psychology",
+    "published": "1957",
+    "url": "",
+    "key_concepts": [
+      "cognitive dissonance",
+      "attitude change",
+      "psychological discomfort",
+      "motivation"
+    ],
+    "llm_annotated_terms": [
+      "cognitive dissonance",
+      "psychological discomfort",
+      "beliefs",
+      "attitudes",
+      "behavior",
+      "motivational drive",
+      "attitude change",
+      "decision justification",
+      "effort justification",
+      "cognitions"
+    ]
+  }
+]

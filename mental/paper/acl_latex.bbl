@@ -1,0 +1,63 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{{American Psychological Association}(2023)}]{apa2023thesaurus}
+{American Psychological Association}. 2023.
+\newblock \emph{APA Thesaurus of Psychological Index Terms}, 12th edition.
+\newblock American Psychological Association, Washington, DC.
+
+\bibitem[{Bougouin et~al.(2013)Bougouin, Boudin, and
+  Daille}]{bougouin2013topicrank}
+Adrien Bougouin, Florian Boudin, and B{\'e}atrice Daille. 2013.
+\newblock {TopicRank}: Graph-based topic ranking for keyphrase extraction.
+\newblock In \emph{Proceedings of the Sixth International Joint Conference on
+  Natural Language Processing}, pages 543--551. Asian Federation of Natural
+  Language Processing.
+
+\bibitem[{Frantzi et~al.(2000)Frantzi, Ananiadou, and
+  Mima}]{frantzi2000automatic}
+Katerina Frantzi, Sophia Ananiadou, and Hideki Mima. 2000.
+\newblock Automatic recognition of multi-word terms: The {C}-value/{NC}-value
+  method.
+\newblock \emph{International Journal on Digital Libraries}, 3(2):115--130.
+
+\bibitem[{Grootendorst(2020)}]{grootendorst2020keybert}
+Maarten Grootendorst. 2020.
+\newblock {KeyBERT}: Minimal keyword extraction with {BERT}.
+\newblock \url{https://github.com/MaartenGr/KeyBERT}.
+
+\bibitem[{Ji et~al.(2022)Ji, Zhang, Ansari, Fu, Tiwari, and
+  Cambria}]{ji2022mentalbert}
+Shaoxiong Ji, Tianlin Zhang, Luna Ansari, Jie Fu, Prayag Tiwari, and Erik
+  Cambria. 2022.
+\newblock {MentalBERT}: Publicly available pretrained language models for
+  mental healthcare.
+\newblock In \emph{Proceedings of the Thirteenth Language Resources and
+  Evaluation Conference}, pages 7184--7190. European Language Resources
+  Association.
+
+\bibitem[{Luan et~al.(2017)Luan, He, Ostendorf, and
+  Hajishirzi}]{luan2017scientific}
+Yi~Luan, Luheng He, Mari Ostendorf, and Hannaneh Hajishirzi. 2017.
+\newblock Multi-task identification of entities, relations, and coreference for
+  scientific knowledge graph construction.
+\newblock In \emph{Proceedings of the 2017 Conference on Empirical Methods in
+  Natural Language Processing}, pages 3219--3232. Association for Computational
+  Linguistics.
+
+\bibitem[{Rose et~al.(2010)Rose, Engel, Cramer, and Cowley}]{rose2010automatic}
+Stuart Rose, Dave Engel, Nick Cramer, and Wendy Cowley. 2010.
+\newblock Automatic keyword extraction from individual documents.
+\newblock In \emph{Text Mining: Applications and Theory}, pages 1--20. John
+  Wiley \& Sons, Chichester, UK.
+
+\bibitem[{Savary et~al.(2017)Savary, Ramisch, Cordeiro, Sangati, Vincze
+  et~al.}]{savary2017parseme}
+Agata Savary, Carlos Ramisch, Silvio Cordeiro, Federico Sangati, Veronika
+  Vincze, and 1 others. 2017.
+\newblock The {PARSEME} shared task on automatic identification of verbal
+  multiword expressions.
+\newblock In \emph{Proceedings of the 13th Workshop on Multiword Expressions},
+  pages 31--47. Association for Computational Linguistics.
+
+\end{thebibliography}

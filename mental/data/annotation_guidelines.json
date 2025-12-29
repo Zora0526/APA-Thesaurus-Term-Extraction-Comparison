@@ -1,0 +1,36 @@
+{
+  "purpose": "心理学术语提取标注指南",
+  "term_definition": "心理学术语是指具有特定心理学含义的专业词汇或短语",
+  "inclusion_criteria": [
+    "心理学理论概念 (如：cognitive dissonance, operant conditioning)",
+    "心理学构念 (如：self-efficacy, attachment style)",
+    "实验方法和工具 (如：reaction time, Stroop test)",
+    "心理现象和过程 (如：memory consolidation, attention)",
+    "心理障碍和症状 (如：depression, anxiety disorder)",
+    "治疗技术和干预 (如：cognitive behavioral therapy, exposure therapy)"
+  ],
+  "exclusion_criteria": [
+    "通用学术词汇 (如：study, research, analysis)",
+    "常规英语词汇 (如：people, think, feel)",
+    "统计术语 (如：significant, correlation) - 除非是心理学特定的统计方法",
+    "生物医学术语 (如：neuron, brain) - 除非直接涉及心理学功能"
+  ],
+  "multiword_terms": "多词术语应作为整体标注，不应分割",
+  "boundary_guidelines": "术语边界应基于语言学和心理学专业标准",
+  "examples": [
+    {
+      "text": "The study examined cognitive dissonance reduction strategies.",
+      "terms": [
+        "cognitive dissonance"
+      ],
+      "explanation": "cognitive dissonance是一个心理学术语，reduction strategies不是"
+    },
+    {
+      "text": "Participants completed the Beck Depression Inventory.",
+      "terms": [
+        "Beck Depression Inventory"
+      ],
+      "explanation": "这是一个心理评估工具的完整名称"
+    }
+  ]
+}

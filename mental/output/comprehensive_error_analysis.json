@@ -1,0 +1,233 @@
+{
+  "summary": {
+    "overall_precision": 0.35311572700296734,
+    "overall_recall": 0.19734660033167495,
+    "overall_f1": 0.2531914893617021
+  },
+  "error_analysis": {
+    "error_type_distribution": {
+      "Other Missing": 363,
+      "Extracting Generic Terms": 53,
+      "Over-specific Terms": 165,
+      "Partial Matches": 81,
+      "Missing Core Concepts": 41,
+      "Semantic Drift": 41
+    },
+    "missing_terms_by_category": {
+      "Uncategorized": 296,
+      "Methodology": 17,
+      "Clinical Psychology": 20,
+      "Cognitive Mechanisms": 81,
+      "Emotion Processes": 32,
+      "Personality Psychology": 8,
+      "Neuropsychology": 9,
+      "Social Psychology": 19,
+      "Developmental Psychology": 1
+    },
+    "extra_terms_by_category": {
+      "Uncategorized": 53,
+      "Cognitive Mechanisms": 52,
+      "Methodology": 52,
+      "Developmental Psychology": 12,
+      "Clinical Psychology": 6,
+      "Social Psychology": 5,
+      "Neuropsychology": 19,
+      "Emotion Processes": 10,
+      "Personality Psychology": 9
+    }
+  },
+  "subfield_performance": {
+    "Developmental Psychology": {
+      "document_count": 6,
+      "precision": 0.3333333333333333,
+      "recall": 0.18181818181818182,
+      "f1": 0.23529411764705885,
+      "avg_gold_coherence": 0.6975052725052725,
+      "avg_pred_coherence": 0.5080026455026455,
+      "coherence_preservation": 0.7283136995911461,
+      "error_distribution": {
+        "Other Missing": 40,
+        "Partial Matches": 6,
+        "Missing Core Concepts": 8,
+        "Semantic Drift": 8
+      },
+      "total_errors": 62
+    },
+    "Clinical Psychology": {
+      "document_count": 4,
+      "precision": 0.3684210526315789,
+      "recall": 0.14893617021276595,
+      "f1": 0.21212121212121215,
+      "avg_gold_coherence": 0.6867647058823529,
+      "avg_pred_coherence": 0.475,
+      "coherence_preservation": 0.6916488222698073,
+      "error_distribution": {
+        "Partial Matches": 7,
+        "Other Missing": 31,
+        "Missing Core Concepts": 2,
+        "Semantic Drift": 2
+      },
+      "total_errors": 42
+    },
+    "Cognitive Psychology": {
+      "document_count": 28,
+      "precision": 0.3402061855670103,
+      "recall": 0.1952662721893491,
+      "f1": 0.2481203007518797,
+      "avg_gold_coherence": 0.6741416377003507,
+      "avg_pred_coherence": 0.5411422902494331,
+      "coherence_preservation": 0.8027130501765052,
+      "error_distribution": {
+        "Other Missing": 210,
+        "Missing Core Concepts": 19,
+        "Semantic Drift": 19,
+        "Partial Matches": 44
+      },
+      "total_errors": 292
+    },
+    "Social Psychology": {
+      "document_count": 5,
+      "precision": 0.5333333333333333,
+      "recall": 0.14035087719298245,
+      "f1": 0.22222222222222224,
+      "avg_gold_coherence": 0.6813186813186813,
+      "avg_pred_coherence": 0.8699999999999999,
+      "coherence_preservation": 1.2769354838709674,
+      "error_distribution": {
+        "Missing Core Concepts": 10,
+        "Semantic Drift": 10,
+        "Other Missing": 34,
+        "Partial Matches": 5
+      },
+      "total_errors": 59
+    },
+    "Emotion Psychology": {
+      "document_count": 4,
+      "precision": 0.44,
+      "recall": 0.275,
+      "f1": 0.3384615384615385,
+      "avg_gold_coherence": 0.6756944444444445,
+      "avg_pred_coherence": 0.6416666666666666,
+      "coherence_preservation": 0.949640287769784,
+      "error_distribution": {
+        "Partial Matches": 11,
+        "Other Missing": 16,
+        "Missing Core Concepts": 1,
+        "Semantic Drift": 1
+      },
+      "total_errors": 29
+    },
+    "Personality Psychology": {
+      "document_count": 2,
+      "precision": 0.10526315789473684,
+      "recall": 0.07692307692307693,
+      "f1": 0.08888888888888889,
+      "avg_gold_coherence": 0.7375,
+      "avg_pred_coherence": 0.4722222222222222,
+      "coherence_preservation": 0.6403013182674199,
+      "error_distribution": {
+        "Other Missing": 19,
+        "Partial Matches": 5
+      },
+      "total_errors": 24
+    },
+    "Neuropsychology": {
+      "document_count": 3,
+      "precision": 0.4482758620689655,
+      "recall": 0.4482758620689655,
+      "f1": 0.4482758620689655,
+      "avg_gold_coherence": 0.6259259259259259,
+      "avg_pred_coherence": 0.5222222222222223,
+      "coherence_preservation": 0.8343195266272191,
+      "error_distribution": {
+        "Other Missing": 13,
+        "Partial Matches": 3,
+        "Missing Core Concepts": 1,
+        "Semantic Drift": 1
+      },
+      "total_errors": 18
+    }
+  },
+  "document_level_errors": [
+    {
+      "doc_id": "2009.13758v1",
+      "missing_count": 4,
+      "extra_count": 5,
+      "precision": 0.375,
+      "recall": 0.42857142857142855,
+      "f1": 0.39999999999999997
+    },
+    {
+      "doc_id": "2011.05233v2",
+      "missing_count": 7,
+      "extra_count": 4,
+      "precision": 0.2,
+      "recall": 0.125,
+      "f1": 0.15384615384615385
+    },
+    {
+      "doc_id": "1706.08606v2",
+      "missing_count": 10,
+      "extra_count": 3,
+      "precision": 0.4,
+      "recall": 0.16666666666666666,
+      "f1": 0.23529411764705882
+    },
+    {
+      "doc_id": "2401.15081v1",
+      "missing_count": 9,
+      "extra_count": 7,
+      "precision": 0.2222222222222222,
+      "recall": 0.18181818181818182,
+      "f1": 0.19999999999999998
+    },
+    {
+      "doc_id": "2302.06615v2",
+      "missing_count": 11,
+      "extra_count": 5,
+      "precision": 0.16666666666666666,
+      "recall": 0.08333333333333333,
+      "f1": 0.1111111111111111
+    },
+    {
+      "doc_id": "2208.09719v1",
+      "missing_count": 10,
+      "extra_count": 3,
+      "precision": 0.5714285714285714,
+      "recall": 0.2857142857142857,
+      "f1": 0.38095238095238093
+    },
+    {
+      "doc_id": "1211.2342v4",
+      "missing_count": 5,
+      "extra_count": 4,
+      "precision": 0.3333333333333333,
+      "recall": 0.2857142857142857,
+      "f1": 0.30769230769230765
+    },
+    {
+      "doc_id": "1608.02164v1",
+      "missing_count": 6,
+      "extra_count": 4,
+      "precision": 0.42857142857142855,
+      "recall": 0.3333333333333333,
+      "f1": 0.375
+    },
+    {
+      "doc_id": "2007.11845v3",
+      "missing_count": 15,
+      "extra_count": 5,
+      "precision": 0.4444444444444444,
+      "recall": 0.21052631578947367,
+      "f1": 0.2857142857142857
+    },
+    {
+      "doc_id": "1911.05703v3",
+      "missing_count": 6,
+      "extra_count": 5,
+      "precision": 0.2857142857142857,
+      "recall": 0.25,
+      "f1": 0.26666666666666666
+    }
+  ]
+}

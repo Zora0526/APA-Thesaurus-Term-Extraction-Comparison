@@ -1,0 +1,93 @@
+[
+  {
+    "source": "sample",
+    "id": "bandura_1977",
+    "title": "Self-efficacy: Toward a unifying theory of behavioral change",
+    "abstract": "This article presents a cognitive theory of motivation that integrates concepts from social learning and cognitive approaches. The theory proposes that self-efficacy expectations—beliefs about one's capabilities to organize and execute the courses of action required to manage prospective situations—serve as a major determinant of people's choice of activities, effort expenditure, persistence, and thought patterns. Self-efficacy expectations are distinguished from related constructs such as outcome expectations, self-concept, and perceived control. Empirical support for the theory is reviewed, and implications for behavioral change are discussed.",
+    "authors": [
+      "Albert Bandura"
+    ],
+    "subfield": "cognitive_psychology",
+    "published": "1977",
+    "url": "",
+    "key_concepts": [
+      "self-efficacy",
+      "cognitive theory",
+      "motivation",
+      "behavioral change"
+    ]
+  },
+  {
+    "source": "sample",
+    "id": "festinger_1957",
+    "title": "A Theory of Cognitive Dissonance",
+    "abstract": "Cognitive dissonance theory proposes that individuals experience psychological discomfort when they hold two or more contradictory beliefs, ideas, or values, or when their beliefs are inconsistent with their actions. This dissonance creates a motivational drive to reduce the inconsistency by changing beliefs, attitudes, or behaviors. The theory explains various phenomena including attitude change, decision justification, and effort justification. Cognitive dissonance can be reduced through changing cognitions, adding new cognitions, or decreasing the importance of conflicting cognitions.",
+    "authors": [
+      "Leon Festinger"
+    ],
+    "subfield": "social_psychology",
+    "published": "1957",
+    "url": "",
+    "key_concepts": [
+      "cognitive dissonance",
+      "attitude change",
+      "psychological discomfort",
+      "motivation"
+    ]
+  },
+  {
+    "source": "sample",
+    "id": "piaget_1952",
+    "title": "The Origins of Intelligence in Children",
+    "abstract": "This work presents a developmental theory of cognitive development in children, proposing that intelligence emerges from the interaction between biological maturation and environmental experience. The theory describes four major stages of cognitive development: sensorimotor, preoperational, concrete operational, and formal operational. Each stage is characterized by distinct ways of thinking and problem-solving abilities. Cognitive development occurs through processes of assimilation (incorporating new experiences into existing schemas) and accommodation (modifying schemas to fit new experiences). Children construct knowledge through active exploration and problem-solving.",
+    "authors": [
+      "Jean Piaget"
+    ],
+    "subfield": "developmental_psychology",
+    "published": "1952",
+    "url": "",
+    "key_concepts": [
+      "cognitive development",
+      "schemas",
+      "assimilation",
+      "accommodation",
+      "stages"
+    ]
+  },
+  {
+    "source": "sample",
+    "id": "beck_1967",
+    "title": "Depression: Clinical, Experimental, and Theoretical Aspects",
+    "abstract": "This comprehensive work presents a cognitive theory of depression, proposing that depressive disorders result from systematic negative biases in information processing. The theory identifies three main cognitive patterns in depression: negative views of oneself, the world, and the future (the cognitive triad). Depression is maintained by automatic negative thoughts, cognitive distortions, and dysfunctional underlying beliefs. The cognitive model provides the foundation for cognitive therapy, which helps patients identify and challenge negative thought patterns and develop more balanced thinking styles.",
+    "authors": [
+      "Aaron T. Beck"
+    ],
+    "subfield": "clinical_psychology",
+    "published": "1967",
+    "url": "",
+    "key_concepts": [
+      "cognitive therapy",
+      "cognitive triad",
+      "negative thinking",
+      "information processing"
+    ]
+  },
+  {
+    "source": "sample",
+    "id": "mischel_1968",
+    "title": "Personality and Assessment",
+    "abstract": "This work challenges traditional trait theories of personality, arguing that behavior is more strongly influenced by situational factors than by stable personality traits. The author proposes a cognitive-social learning approach that emphasizes the interaction between person and situation. The book introduces the concept of cognitive-affective personality systems, suggesting that behavior results from the interaction of cognitive units (encoding, expectations, affects) with situational variables. This perspective led to the development of modern personality theories that integrate traits and situational influences.",
+    "authors": [
+      "Walter Mischel"
+    ],
+    "subfield": "personality_psychology",
+    "published": "1968",
+    "url": "",
+    "key_concepts": [
+      "person-situation debate",
+      "cognitive-affective systems",
+      "situational factors",
+      "social learning"
+    ]
+  }
+]

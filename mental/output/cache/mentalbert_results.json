@@ -1,0 +1,3301 @@
+{
+  "system_evaluation": {
+    "system_name": "MentalBERT",
+    "documents_evaluated": 52,
+    "average_precision_at_k": {
+      "P@1": 0.45098039215686275,
+      "P@3": 0.4057971014492754,
+      "P@5": 0.36585365853658536,
+      "P@10": 0.2875
+    },
+    "average_recall_at_k": {
+      "R@1": 0.044210292598301656,
+      "R@3": 0.10303284961909036,
+      "R@5": 0.16068175039284233,
+      "R@10": 0.20752394436158422
+    },
+    "map_score": 0.5313988095238095,
+    "basic_metrics": {
+      "avg_precision": 0.36360653235653234,
+      "avg_recall": 0.20776432897696884,
+      "avg_f1": 0.2495360591787795
+    },
+    "detailed_results": {
+      "precision_at_k_values": {
+        "P@1": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "P@3": [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.0,
+          0.6666666666666666,
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.6666666666666666,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.0,
+          0.3333333333333333,
+          0.0,
+          0.6666666666666666,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.6666666666666666,
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.6666666666666666,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.6666666666666666,
+          0.3333333333333333,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.6666666666666666,
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333,
+          0.0,
+          0.3333333333333333
+        ],
+        "P@5": [
+          0.6,
+          0.2,
+          0.4,
+          0.0,
+          0.2,
+          0.4,
+          0.2,
+          0.4,
+          0.6,
+          0.4,
+          0.4,
+          0.2,
+          0.4,
+          0.4,
+          0.0,
+          0.2,
+          0.4,
+          0.6,
+          0.4,
+          0.0,
+          0.4,
+          0.0,
+          0.6,
+          0.6,
+          0.4,
+          0.8,
+          0.6,
+          0.4,
+          0.2,
+          0.4,
+          0.2,
+          0.6,
+          0.2,
+          0.6,
+          0.4,
+          0.4,
+          0.6,
+          0.4,
+          0.2,
+          0.4,
+          0.2
+        ],
+        "P@10": [
+          0.1,
+          0.6,
+          0.5,
+          0.1,
+          0.2,
+          0.3,
+          0.3,
+          0.2
+        ]
+      },
+      "recall_at_k_values": {
+        "R@1": [
+          0.14285714285714285,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.1111111111111111,
+          0.0,
+          0.125,
+          0.0,
+          0.2,
+          0.0,
+          0.0,
+          0.1,
+          0.07692307692307693,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.1,
+          0.0,
+          0.1111111111111111,
+          0.0,
+          0.0,
+          0.0,
+          0.058823529411764705,
+          0.0,
+          0.0,
+          0.06666666666666667,
+          0.07142857142857142,
+          0.0,
+          0.07142857142857142,
+          0.1,
+          0.16666666666666666,
+          0.1,
+          0.1,
+          0.07142857142857142,
+          0.0,
+          0.05555555555555555,
+          0.058823529411764705,
+          0.0,
+          0.1,
+          0.0,
+          0.0,
+          0.1111111111111111,
+          0.0,
+          0.0,
+          0.1,
+          0.0,
+          0.0,
+          0.1
+        ],
+        "R@3": [
+          0.2857142857142857,
+          0.125,
+          0.08333333333333333,
+          0.0,
+          0.0,
+          0.07142857142857142,
+          0.14285714285714285,
+          0.1111111111111111,
+          0.10526315789473684,
+          0.125,
+          0.0,
+          0.2,
+          0.0,
+          0.0,
+          0.2,
+          0.15384615384615385,
+          0.0,
+          0.0,
+          0.08333333333333333,
+          0.14285714285714285,
+          0.1,
+          0.18181818181818182,
+          0.2222222222222222,
+          0.0,
+          0.07692307692307693,
+          0.0,
+          0.058823529411764705,
+          0.0,
+          0.14285714285714285,
+          0.13333333333333333,
+          0.07142857142857142,
+          0.1,
+          0.21428571428571427,
+          0.3,
+          0.16666666666666666,
+          0.1,
+          0.2,
+          0.07142857142857142,
+          0.07142857142857142,
+          0.05555555555555555,
+          0.11764705882352941,
+          0.0625,
+          0.3,
+          0.1,
+          0.0,
+          0.2222222222222222,
+          0.2,
+          0.0,
+          0.1,
+          0.058823529411764705,
+          0.0,
+          0.1
+        ],
+        "R@5": [
+          0.42857142857142855,
+          0.125,
+          0.16666666666666666,
+          0.0,
+          0.08333333333333333,
+          0.14285714285714285,
+          0.14285714285714285,
+          0.2222222222222222,
+          0.15789473684210525,
+          0.25,
+          0.0,
+          0.4,
+          0.0,
+          0.09090909090909091,
+          0.2,
+          0.15384615384615385,
+          0.0,
+          0.0,
+          0.16666666666666666,
+          0.14285714285714285,
+          0.2,
+          0.2727272727272727,
+          0.3333333333333333,
+          0.0,
+          0.15384615384615385,
+          0.0,
+          0.11764705882352941,
+          0.0,
+          0.21428571428571427,
+          0.2,
+          0.14285714285714285,
+          0.2,
+          0.21428571428571427,
+          0.3,
+          0.3333333333333333,
+          0.1,
+          0.2,
+          0.07142857142857142,
+          0.14285714285714285,
+          0.05555555555555555,
+          0.17647058823529413,
+          0.0625,
+          0.3,
+          0.2,
+          0.18181818181818182,
+          0.3333333333333333,
+          0.3,
+          0.16666666666666666,
+          0.1,
+          0.058823529411764705,
+          0.25,
+          0.1
+        ],
+        "R@10": [
+          0.42857142857142855,
+          0.125,
+          0.16666666666666666,
+          0.18181818181818182,
+          0.08333333333333333,
+          0.2857142857142857,
+          0.2857142857142857,
+          0.3333333333333333,
+          0.21052631578947367,
+          0.25,
+          0.0,
+          0.4,
+          0.0,
+          0.09090909090909091,
+          0.3,
+          0.15384615384615385,
+          0.0,
+          0.0,
+          0.16666666666666666,
+          0.14285714285714285,
+          0.3,
+          0.2727272727272727,
+          0.3333333333333333,
+          0.0,
+          0.15384615384615385,
+          0.0625,
+          0.17647058823529413,
+          0.0,
+          0.42857142857142855,
+          0.26666666666666666,
+          0.14285714285714285,
+          0.2,
+          0.21428571428571427,
+          0.5,
+          0.3333333333333333,
+          0.1,
+          0.2,
+          0.07142857142857142,
+          0.14285714285714285,
+          0.1111111111111111,
+          0.23529411764705882,
+          0.1875,
+          0.4,
+          0.3,
+          0.36363636363636365,
+          0.5555555555555556,
+          0.3,
+          0.16666666666666666,
+          0.1,
+          0.11764705882352941,
+          0.25,
+          0.2
+        ]
+      },
+      "ap_values": [
+        0.9166666666666666,
+        0.3333333333333333,
+        0.3666666666666667,
+        0.20833333333333331,
+        0.2,
+        0.5178571428571428,
+        0.3333333333333333,
+        0.6428571428571429,
+        0.5902777777777777,
+        0.75,
+        0.0,
+        0.75,
+        0.0,
+        0.2,
+        0.8095238095238094,
+        0.8333333333333333,
+        0.0,
+        0.0,
+        0.5,
+        0.3333333333333333,
+        0.6333333333333333,
+        0.6388888888888888,
+        0.7555555555555555,
+        0.0,
+        0.45,
+        0.125,
+        0.6333333333333333,
+        0.0,
+        0.6208333333333332,
+        0.8541666666666666,
+        0.75,
+        0.6791666666666667,
+        1.0,
+        0.8253968253968254,
+        0.75,
+        1.0,
+        0.8333333333333333,
+        1.0,
+        0.45,
+        0.6666666666666666,
+        0.7333333333333333,
+        0.3055555555555555,
+        0.8928571428571428,
+        0.37777777777777777,
+        0.4125,
+        0.7611111111111111,
+        0.6388888888888888,
+        0.325,
+        1.0,
+        0.26666666666666666,
+        0.325,
+        0.6428571428571428
+      ]
+    }
+  },
+  "detailed_results": [
+    {
+      "doc_id": "2009.13758v1",
+      "predicted_terms": [
+        "visualization psychology",
+        "design cognition",
+        "visualization",
+        "design practice",
+        "cognition disciplines",
+        "integration research",
+        "engaging research",
+        "future research"
+      ],
+      "gold_terms": [
+        "design cognition",
+        "visualization psychology",
+        "psychology of users",
+        "psychology of designers",
+        "design practice",
+        "education and training of designers",
+        "research program"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.375,
+          "recall": 0.42857142857142855,
+          "f1": 0.39999999999999997,
+          "true_positives": 3,
+          "false_positives": 5,
+          "false_negatives": 4,
+          "predicted_count": 8,
+          "gold_count": 7
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.6666666666666666,
+          "P@5": 0.6
+        },
+        "recall_at_k": {
+          "R@1": 0.14285714285714285,
+          "R@3": 0.2857142857142857,
+          "R@5": 0.42857142857142855,
+          "R@10": 0.42857142857142855
+        },
+        "ap": 0.9166666666666666,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.7653606369886217,
+          "NDCG@5": 0.6992148198508501
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2011.05233v2",
+      "predicted_terms": [
+        "health research",
+        "science research",
+        "mental health",
+        "treatment surveillance",
+        "social media"
+      ],
+      "gold_terms": [
+        "mental health",
+        "mental health treatment",
+        "mental health surveillance",
+        "data-driven methods",
+        "dataset annotation",
+        "meta-analysis",
+        "medical understanding",
+        "system performance"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.2,
+          "recall": 0.125,
+          "f1": 0.15384615384615385,
+          "true_positives": 1,
+          "false_positives": 4,
+          "false_negatives": 7,
+          "predicted_count": 5,
+          "gold_count": 8
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.2
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.125,
+          "R@5": 0.125,
+          "R@10": 0.125
+        },
+        "ap": 0.3333333333333333,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.23463936301137822,
+          "NDCG@5": 0.16958010263680806
+        },
+        "reciprocal_rank": 0.3333333333333333
+      }
+    },
+    {
+      "doc_id": "1706.08606v2",
+      "predicted_terms": [
+        "neural networks",
+        "cognitive psychologists",
+        "cognitive psychology",
+        "neural systems",
+        "developmental psychology"
+      ],
+      "gold_terms": [
+        "interpretability (in cognitive psychology context)",
+        "developmental psychology",
+        "one-shot learning",
+        "shape bias",
+        "word learning",
+        "categorization",
+        "label learning",
+        "human word learning",
+        "experimental methods",
+        "cognitive psychology",
+        "stimuli (experimental)",
+        "bias (cognitive)"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.4,
+          "recall": 0.16666666666666666,
+          "f1": 0.23529411764705882,
+          "true_positives": 2,
+          "false_positives": 3,
+          "false_negatives": 10,
+          "predicted_count": 5,
+          "gold_count": 12
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.4
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.08333333333333333,
+          "R@5": 0.16666666666666666,
+          "R@10": 0.16666666666666666
+        },
+        "ap": 0.3666666666666667,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.23463936301137822,
+          "NDCG@5": 0.30078518014914984
+        },
+        "reciprocal_rank": 0.3333333333333333
+      }
+    },
+    {
+      "doc_id": "2401.15081v1",
+      "predicted_terms": [
+        "statistically higher",
+        "statistically sensitive",
+        "increases statistically",
+        "gpt statistically",
+        "science assessments",
+        "analytical skills",
+        "cognitive skills",
+        "cognitive intensity",
+        "problem solving"
+      ],
+      "gold_terms": [
+        "cognitive load",
+        "cognitive complexity",
+        "cognitive demand",
+        "problem-solving",
+        "critical thinking",
+        "analytical skills",
+        "application of knowledge",
+        "mental workload",
+        "task dimensionality",
+        "cognitive intensity",
+        "expert coding"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.2222222222222222,
+          "recall": 0.18181818181818182,
+          "f1": 0.19999999999999998,
+          "true_positives": 2,
+          "false_positives": 7,
+          "false_negatives": 9,
+          "predicted_count": 9,
+          "gold_count": 11
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.0,
+          "P@5": 0.0
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.0,
+          "R@5": 0.0,
+          "R@10": 0.18181818181818182
+        },
+        "ap": 0.20833333333333331,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.0,
+          "NDCG@5": 0.0
+        },
+        "reciprocal_rank": 0.16666666666666666
+      }
+    },
+    {
+      "doc_id": "2302.06615v2",
+      "predicted_terms": [
+        "methodologies corroborate",
+        "exploratory drive",
+        "ai methodologies",
+        "intrinsic exploratory",
+        "behavioral findings",
+        "observation methods"
+      ],
+      "gold_terms": [
+        "epistemic emotions",
+        "achievement emotions",
+        "pride",
+        "surprise",
+        "intrinsic exploratory drive",
+        "exploration",
+        "knowledge consolidation",
+        "autonomy",
+        "behavioral findings",
+        "causal relationships",
+        "correlation",
+        "self-emotion-mediated exploration"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.16666666666666666,
+          "recall": 0.08333333333333333,
+          "f1": 0.1111111111111111,
+          "true_positives": 1,
+          "false_positives": 5,
+          "false_negatives": 11,
+          "predicted_count": 6,
+          "gold_count": 12
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.0,
+          "P@5": 0.2
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.0,
+          "R@5": 0.08333333333333333,
+          "R@10": 0.08333333333333333
+        },
+        "ap": 0.2,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.0,
+          "NDCG@5": 0.13120507751234178
+        },
+        "reciprocal_rank": 0.2
+      }
+    },
+    {
+      "doc_id": "2208.09719v1",
+      "predicted_terms": [
+        "predictive hyperparameter",
+        "hyperparameter hypothesization",
+        "descriptors cognitive",
+        "semantic fluency",
+        "hyperparameter tuning",
+        "cognitive modeling",
+        "human cognition"
+      ],
+      "gold_terms": [
+        "semantic fluency task",
+        "semantic fluency",
+        "transformer-based language models",
+        "deep language models",
+        "cognitive modeling",
+        "hyperparameter hypothesization",
+        "predictive hyperparameter tuning",
+        "individual differences",
+        "cognitive-behavioral profiles",
+        "memory retrieval strategies",
+        "human memory retrieval",
+        "knowledge representations",
+        "cognitive process",
+        "human cognition"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.5714285714285714,
+          "recall": 0.2857142857142857,
+          "f1": 0.38095238095238093,
+          "true_positives": 4,
+          "false_positives": 3,
+          "false_negatives": 10,
+          "predicted_count": 7,
+          "gold_count": 14
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.4
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.07142857142857142,
+          "R@5": 0.14285714285714285,
+          "R@10": 0.2857142857142857
+        },
+        "ap": 0.5178571428571428,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.2960819109658652,
+          "NDCG@5": 0.36005461457723403
+        },
+        "reciprocal_rank": 0.5
+      }
+    },
+    {
+      "doc_id": "1211.2342v4",
+      "predicted_terms": [
+        "chsh inequalities",
+        "inequalities",
+        "marginal selectivity",
+        "cognitive science",
+        "experimental factors",
+        "selective influences"
+      ],
+      "gold_terms": [
+        "selective influences",
+        "marginal selectivity",
+        "Bell/CHSH inequalities",
+        "binary experimental factors",
+        "binary random variables",
+        "selective influence violations",
+        "response influence"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.3333333333333333,
+          "recall": 0.2857142857142857,
+          "f1": 0.30769230769230765,
+          "true_positives": 2,
+          "false_positives": 4,
+          "false_negatives": 5,
+          "predicted_count": 6,
+          "gold_count": 7
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.2
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.14285714285714285,
+          "R@5": 0.14285714285714285,
+          "R@10": 0.2857142857142857
+        },
+        "ap": 0.3333333333333333,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.23463936301137822,
+          "NDCG@5": 0.16958010263680806
+        },
+        "reciprocal_rank": 0.3333333333333333
+      }
+    },
+    {
+      "doc_id": "1608.02164v1",
+      "predicted_terms": [
+        "psychological representations",
+        "object recognition",
+        "neural networks",
+        "psychological experiments",
+        "human similarity",
+        "perception problems",
+        "similarity judgments"
+      ],
+      "gold_terms": [
+        "psychological representations",
+        "similarity judgments",
+        "human similarity judgments",
+        "representations (mental representations)",
+        "object representation",
+        "perception",
+        "semantic representations",
+        "psychological experiments",
+        "human-level accuracy (human performance)"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.42857142857142855,
+          "recall": 0.3333333333333333,
+          "f1": 0.375,
+          "true_positives": 3,
+          "false_positives": 4,
+          "false_negatives": 6,
+          "predicted_count": 7,
+          "gold_count": 9
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.4
+        },
+        "recall_at_k": {
+          "R@1": 0.1111111111111111,
+          "R@3": 0.1111111111111111,
+          "R@5": 0.2222222222222222,
+          "R@10": 0.3333333333333333
+        },
+        "ap": 0.6428571428571429,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.46927872602275644,
+          "NDCG@5": 0.48522855511632257
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2007.11845v3",
+      "predicted_terms": [
+        "inseparable cognition",
+        "temporal information",
+        "time perception",
+        "embodiment",
+        "cognitive abilities",
+        "psychology neuroscience",
+        "neuroscience literature",
+        "neural network",
+        "sensory timing"
+      ],
+      "gold_terms": [
+        "time perception",
+        "subjective time",
+        "planning",
+        "decision making",
+        "communication",
+        "cooperation",
+        "cognition",
+        "neuroscience",
+        "models of time perception",
+        "clock-like mechanism",
+        "neural network dynamics",
+        "embodiment",
+        "sensory timing",
+        "motor timing",
+        "interval timing",
+        "retrospective timing",
+        "timing models",
+        "temporal information",
+        "time processing"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.4444444444444444,
+          "recall": 0.21052631578947367,
+          "f1": 0.2857142857142857,
+          "true_positives": 4,
+          "false_positives": 5,
+          "false_negatives": 15,
+          "predicted_count": 9,
+          "gold_count": 19
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.6666666666666666,
+          "P@5": 0.6
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.10526315789473684,
+          "R@5": 0.15789473684210525,
+          "R@10": 0.21052631578947367
+        },
+        "ap": 0.5902777777777777,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.5307212739772434,
+          "NDCG@5": 0.5296347172140421
+        },
+        "reciprocal_rank": 0.5
+      }
+    },
+    {
+      "doc_id": "1911.05703v3",
+      "predicted_terms": [
+        "false positives",
+        "cognitive mapping",
+        "identify childrens",
+        "developmental psychology",
+        "childrens peer",
+        "positives",
+        "social cognitive"
+      ],
+      "gold_terms": [
+        "social cognitive mapping",
+        "peer groups",
+        "peer report",
+        "developmental psychology",
+        "social network community detection",
+        "backbone extraction",
+        "false positives",
+        "peer influence"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.2857142857142857,
+          "recall": 0.25,
+          "f1": 0.26666666666666666,
+          "true_positives": 2,
+          "false_positives": 5,
+          "false_negatives": 6,
+          "predicted_count": 7,
+          "gold_count": 8
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.4
+        },
+        "recall_at_k": {
+          "R@1": 0.125,
+          "R@3": 0.125,
+          "R@5": 0.25,
+          "R@10": 0.25
+        },
+        "ap": 0.75,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.46927872602275644,
+          "NDCG@5": 0.48522855511632257
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2302.00954v1",
+      "predicted_terms": [
+        "evaluation metrics",
+        "bertscore evaluation"
+      ],
+      "gold_terms": [
+        "mental health",
+        "counseling",
+        "fatigue",
+        "mental state",
+        "online mental health posts",
+        "help-seeking behavior"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "false_positives": 2,
+          "false_negatives": 6,
+          "predicted_count": 2,
+          "gold_count": 6
+        },
+        "precision_at_k": {
+          "P@1": 0.0
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.0,
+          "R@5": 0.0,
+          "R@10": 0.0
+        },
+        "ap": 0.0,
+        "ndcg": {
+          "NDCG@1": 0.0
+        },
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "doc_id": "2006.13211v1",
+      "predicted_terms": [
+        "emotion datasets",
+        "annotated emotion",
+        "datasets",
+        "emotion recognition",
+        "expression recognition",
+        "learning emotion"
+      ],
+      "gold_terms": [
+        "emotion recognition",
+        "facial expression recognition",
+        "speech emotion recognition",
+        "emotional knowledge",
+        "emotion datasets"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.3333333333333333,
+          "recall": 0.4,
+          "f1": 0.3636363636363636,
+          "true_positives": 2,
+          "false_positives": 4,
+          "false_negatives": 3,
+          "predicted_count": 6,
+          "gold_count": 5
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.4
+        },
+        "recall_at_k": {
+          "R@1": 0.2,
+          "R@3": 0.2,
+          "R@5": 0.4,
+          "R@10": 0.4
+        },
+        "ap": 0.75,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.46927872602275644,
+          "NDCG@5": 0.48522855511632257
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "1906.11247v2",
+      "predicted_terms": [],
+      "gold_terms": [
+        "causal feedback",
+        "causal influence",
+        "feedback loops",
+        "nonlinear dynamics",
+        "forward-chaining inference",
+        "domain knowledge",
+        "transitive causal influence",
+        "policy variables"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 8,
+          "predicted_count": 0,
+          "gold_count": 8
+        },
+        "precision_at_k": {},
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.0,
+          "R@5": 0.0,
+          "R@10": 0.0
+        },
+        "ap": 0.0,
+        "ndcg": {},
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "doc_id": "2402.14424v3",
+      "predicted_terms": [
+        "leveraging synergy",
+        "graph leveraging",
+        "semantic analysis",
+        "psychological research",
+        "psychological hypothesis"
+      ],
+      "gold_terms": [
+        "causal relation",
+        "causal graph",
+        "link prediction",
+        "well-being",
+        "hypothesis generation",
+        "novelty (in hypothesis evaluation)",
+        "deep semantic analysis",
+        "causal knowledge graph",
+        "automated discovery",
+        "psychological hypothesis",
+        "expert-level insight"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.2,
+          "recall": 0.09090909090909091,
+          "f1": 0.12500000000000003,
+          "true_positives": 1,
+          "false_positives": 4,
+          "false_negatives": 10,
+          "predicted_count": 5,
+          "gold_count": 11
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.0,
+          "P@5": 0.2
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.0,
+          "R@5": 0.09090909090909091,
+          "R@10": 0.09090909090909091
+        },
+        "ap": 0.2,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.0,
+          "NDCG@5": 0.13120507751234178
+        },
+        "reciprocal_rank": 0.2
+      }
+    },
+    {
+      "doc_id": "1212.0823v3",
+      "predicted_terms": [
+        "interdisciplinarity",
+        "alluvial map",
+        "reintegration cognitive",
+        "specificity development",
+        "cognitive science",
+        "alluvial",
+        "cognitive psychology"
+      ],
+      "gold_terms": [
+        "interdisciplinarity",
+        "interdisciplinary orientation",
+        "cognitive psychology",
+        "artificial intelligence",
+        "knowledge base",
+        "disciplinary composition",
+        "visualization",
+        "factor analysis",
+        "alluvial map",
+        "animation"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.42857142857142855,
+          "recall": 0.3,
+          "f1": 0.3529411764705882,
+          "true_positives": 3,
+          "false_positives": 4,
+          "false_negatives": 7,
+          "predicted_count": 7,
+          "gold_count": 10
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.6666666666666666,
+          "P@5": 0.4
+        },
+        "recall_at_k": {
+          "R@1": 0.1,
+          "R@3": 0.2,
+          "R@5": 0.2,
+          "R@10": 0.3
+        },
+        "ap": 0.8095238095238094,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.7653606369886217,
+          "NDCG@5": 0.5531464700081437
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2211.06477v1",
+      "predicted_terms": [
+        "cognitive augmentation",
+        "cognitive augmenta",
+        "human thinking",
+        "human concept",
+        "artificial cognition",
+        "cognitive entities",
+        "concept learning"
+      ],
+      "gold_terms": [
+        "cognition",
+        "cognitive augmentation",
+        "cognitive process",
+        "information",
+        "knowledge",
+        "wisdom",
+        "human concept learning",
+        "emergent cognition",
+        "processing effort",
+        "collaboration with artificial cognitive entities",
+        "combined cognition",
+        "human thinking",
+        "thinking"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.2857142857142857,
+          "recall": 0.15384615384615385,
+          "f1": 0.2,
+          "true_positives": 2,
+          "false_positives": 5,
+          "false_negatives": 11,
+          "predicted_count": 7,
+          "gold_count": 13
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.6666666666666666,
+          "P@5": 0.4
+        },
+        "recall_at_k": {
+          "R@1": 0.07692307692307693,
+          "R@3": 0.15384615384615385,
+          "R@5": 0.15384615384615385,
+          "R@10": 0.15384615384615385
+        },
+        "ap": 0.8333333333333333,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.7039180890341347,
+          "NDCG@5": 0.5087403079104241
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2410.13310v1",
+      "predicted_terms": [
+        "personalize imaging",
+        "leveraging enormous"
+      ],
+      "gold_terms": [
+        "perception-action loop",
+        "perception",
+        "action",
+        "inference",
+        "uncertainty reduction",
+        "active inference",
+        "belief states",
+        "information-seeking agent",
+        "perception-action coupling",
+        "cognitive system",
+        "decision-making"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "false_positives": 2,
+          "false_negatives": 11,
+          "predicted_count": 2,
+          "gold_count": 11
+        },
+        "precision_at_k": {
+          "P@1": 0.0
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.0,
+          "R@5": 0.0,
+          "R@10": 0.0
+        },
+        "ap": 0.0,
+        "ndcg": {
+          "NDCG@1": 0.0
+        },
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "doc_id": "1706.09399v1",
+      "predicted_terms": [
+        "injurious behaviors",
+        "compulsive disorders",
+        "treatments attributable",
+        "self injurious",
+        "dynamical systems",
+        "deterministic statistical",
+        "injurious"
+      ],
+      "gold_terms": [
+        "dynamical systems theory",
+        "deterministic processes",
+        "statistical approaches",
+        "initial conditions",
+        "data origins",
+        "exponential distribution (Malthusian)",
+        "algebraic distribution (Pareto)",
+        "behavior frequency",
+        "patient progression",
+        "patient regression",
+        "memory effect",
+        "triggering factors",
+        "hazardous factors",
+        "psychological treatment strategies",
+        "obsessive-compulsive disorders",
+        "self-injurious behaviors",
+        "therapist-patient relationship",
+        "criticality",
+        "complexity"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "false_positives": 7,
+          "false_negatives": 19,
+          "predicted_count": 7,
+          "gold_count": 19
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.0,
+          "P@5": 0.0
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.0,
+          "R@5": 0.0,
+          "R@10": 0.0
+        },
+        "ap": 0.0,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.0,
+          "NDCG@5": 0.0
+        },
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "doc_id": "2402.08837v1",
+      "predicted_terms": [
+        "statistically significant",
+        "speech prosody",
+        "provides statistically",
+        "backchannels"
+      ],
+      "gold_terms": [
+        "rapport",
+        "non-verbal behaviors",
+        "backchannels",
+        "backchannel smiles",
+        "speech prosody",
+        "listener behavior",
+        "speaker behavior",
+        "intensity (of smiles)",
+        "duration (of smiles)",
+        "empathy (implied by rapport-building)",
+        "human-likeness (perceived human-like)",
+        "rapport-building"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.5,
+          "recall": 0.16666666666666666,
+          "f1": 0.25,
+          "true_positives": 2,
+          "false_positives": 2,
+          "false_negatives": 10,
+          "predicted_count": 4,
+          "gold_count": 12
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.3333333333333333
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.08333333333333333,
+          "R@5": 0.16666666666666666,
+          "R@10": 0.16666666666666666
+        },
+        "ap": 0.5,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.2960819109658652
+        },
+        "reciprocal_rank": 0.5
+      }
+    },
+    {
+      "doc_id": "2405.04048v1",
+      "predicted_terms": [
+        "methodological challenges",
+        "ongoing methodological",
+        "cognitive science",
+        "cognition development",
+        "neural networks",
+        "intelligence research",
+        "comparative evaluation",
+        "cognition perspective",
+        "learning cognition",
+        "theoretical debates"
+      ],
+      "gold_terms": [
+        "connectionism",
+        "cognitive science",
+        "cognition",
+        "philosophy of cognitive science",
+        "methodology of comparative evaluation",
+        "theoretical debates about cognition",
+        "deep neural networks"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.1,
+          "recall": 0.14285714285714285,
+          "f1": 0.11764705882352941,
+          "true_positives": 1,
+          "false_positives": 9,
+          "false_negatives": 6,
+          "predicted_count": 10,
+          "gold_count": 7
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.2,
+          "P@10": 0.1
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.14285714285714285,
+          "R@5": 0.14285714285714285,
+          "R@10": 0.14285714285714285
+        },
+        "ap": 0.3333333333333333,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.23463936301137822,
+          "NDCG@5": 0.16958010263680806,
+          "NDCG@10": 0.13743816645714543
+        },
+        "reciprocal_rank": 0.3333333333333333
+      }
+    },
+    {
+      "doc_id": "2403.00509v1",
+      "predicted_terms": [
+        "psychological constructs",
+        "psychometrics psychological",
+        "knowledge psychometrics",
+        "contextualized construct",
+        "contrastive learning",
+        "psychometrics",
+        "contextualized",
+        "ccr method"
+      ],
+      "gold_terms": [
+        "historical psychology",
+        "psychological constructs",
+        "traditionalism",
+        "norm strength",
+        "collectivism",
+        "psychometrics",
+        "construct representation",
+        "Contextualized Construct Representations (CCR)",
+        "contrastive learning",
+        "psychological surveys"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.375,
+          "recall": 0.3,
+          "f1": 0.33333333333333326,
+          "true_positives": 3,
+          "false_positives": 5,
+          "false_negatives": 7,
+          "predicted_count": 8,
+          "gold_count": 10
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.4
+        },
+        "recall_at_k": {
+          "R@1": 0.1,
+          "R@3": 0.1,
+          "R@5": 0.2,
+          "R@10": 0.3
+        },
+        "ap": 0.6333333333333333,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.46927872602275644,
+          "NDCG@5": 0.4703652827859579
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2207.07088v1",
+      "predicted_terms": [
+        "stochasticity",
+        "resource rationality",
+        "utility maximization",
+        "human cognition"
+      ],
+      "gold_terms": [
+        "resource rationality",
+        "cognitive resources",
+        "cognitive resource limitations",
+        "stochasticity of behavior",
+        "utility maximization",
+        "planning horizon (preview horizon)",
+        "internal cognitive mechanisms",
+        "decision making",
+        "human cognition",
+        "behavioral variability",
+        "bounded rationality"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.75,
+          "recall": 0.2727272727272727,
+          "f1": 0.39999999999999997,
+          "true_positives": 3,
+          "false_positives": 1,
+          "false_negatives": 8,
+          "predicted_count": 4,
+          "gold_count": 11
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.6666666666666666
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.18181818181818182,
+          "R@5": 0.2727272727272727,
+          "R@10": 0.2727272727272727
+        },
+        "ap": 0.6388888888888888,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.5307212739772434
+        },
+        "reciprocal_rank": 0.5
+      }
+    },
+    {
+      "doc_id": "2306.09372v1",
+      "predicted_terms": [
+        "contextual information",
+        "computer interaction",
+        "emotion recognition",
+        "extensive evaluation",
+        "facial expressions"
+      ],
+      "gold_terms": [
+        "emotion recognition",
+        "facial expressions",
+        "contextual information",
+        "open-world setting",
+        "novelty effect",
+        "human-computer interaction",
+        "facial emotion recognition",
+        "dataset limitations",
+        "real-world applications"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.6,
+          "recall": 0.3333333333333333,
+          "f1": 0.42857142857142855,
+          "true_positives": 3,
+          "false_positives": 2,
+          "false_negatives": 6,
+          "predicted_count": 5,
+          "gold_count": 9
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.6666666666666666,
+          "P@5": 0.6
+        },
+        "recall_at_k": {
+          "R@1": 0.1111111111111111,
+          "R@3": 0.2222222222222222,
+          "R@5": 0.3333333333333333,
+          "R@10": 0.3333333333333333
+        },
+        "ap": 0.7555555555555555,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.7039180890341347,
+          "NDCG@5": 0.639945385422766
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2010.13325v5",
+      "predicted_terms": [
+        "nonlinear trajectories",
+        "linear trajectories"
+      ],
+      "gold_terms": [
+        "latent classes",
+        "heterogeneity in trajectories",
+        "parallel nonlinear trajectories",
+        "joint development",
+        "latent class membership",
+        "baseline covariates",
+        "structural equation modeling",
+        "piecewise linear trajectories",
+        "measurement occasions",
+        "cluster formation",
+        "individual differences",
+        "reading ability",
+        "mathematics ability"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "false_positives": 2,
+          "false_negatives": 13,
+          "predicted_count": 2,
+          "gold_count": 13
+        },
+        "precision_at_k": {
+          "P@1": 0.0
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.0,
+          "R@5": 0.0,
+          "R@10": 0.0
+        },
+        "ap": 0.0,
+        "ndcg": {
+          "NDCG@1": 0.0
+        },
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "doc_id": "2010.07845v2",
+      "predicted_terms": [
+        "hoarding behavior",
+        "hoarding behaviors",
+        "pandemic affected",
+        "hoarding groups",
+        "lexical approach"
+      ],
+      "gold_terms": [
+        "hoarding behaviors",
+        "hoarding",
+        "anti-hoarding",
+        "age (demographics)",
+        "gender (demographics)",
+        "geographic location (demographics)",
+        "topic modeling",
+        "opinions",
+        "anxiety scores",
+        "lexical approach",
+        "LIWC anxiety",
+        "baseline anxiety",
+        "social media analysis"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.4,
+          "recall": 0.15384615384615385,
+          "f1": 0.2222222222222222,
+          "true_positives": 2,
+          "false_positives": 3,
+          "false_negatives": 11,
+          "predicted_count": 5,
+          "gold_count": 13
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.4
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.07692307692307693,
+          "R@5": 0.15384615384615385,
+          "R@10": 0.15384615384615385
+        },
+        "ap": 0.45,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.2960819109658652,
+          "NDCG@5": 0.34519134224686937
+        },
+        "reciprocal_rank": 0.5
+      }
+    },
+    {
+      "doc_id": "2403.17982v1",
+      "predicted_terms": [
+        "commuting observables",
+        "methodological framework",
+        "methodological literature",
+        "provides methodological",
+        "extensively methodological",
+        "observables",
+        "characterizing psychological",
+        "response dynamics",
+        "order autocorrelation"
+      ],
+      "gold_terms": [
+        "order effects",
+        "path-dependency",
+        "first-order autocorrelation",
+        "state-dependency",
+        "hysteresis",
+        "anchor (anchoring)",
+        "non-commuting observables",
+        "measurement effects",
+        "first-order Markov chain",
+        "sequential dependencies",
+        "response dynamics",
+        "sequential data analysis",
+        "longitudinal analysis",
+        "response patterns",
+        "survey response behavior",
+        "test response dynamics"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.1111111111111111,
+          "recall": 0.0625,
+          "f1": 0.08,
+          "true_positives": 1,
+          "false_positives": 8,
+          "false_negatives": 15,
+          "predicted_count": 9,
+          "gold_count": 16
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.0,
+          "P@5": 0.0
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.0,
+          "R@5": 0.0,
+          "R@10": 0.0625
+        },
+        "ap": 0.125,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.0,
+          "NDCG@5": 0.0
+        },
+        "reciprocal_rank": 0.125
+      }
+    },
+    {
+      "doc_id": "2009.12488v1",
+      "predicted_terms": [
+        "mental illness",
+        "detection methods",
+        "therapeutic treatment",
+        "developed researchers",
+        "mental health",
+        "passive sensing",
+        "indirect measures",
+        "methods sensing"
+      ],
+      "gold_terms": [
+        "mental health",
+        "detection",
+        "prediction",
+        "treatment",
+        "physiological signals",
+        "behavioral signals",
+        "social signals",
+        "active sensing",
+        "passive sensing",
+        "self-report",
+        "intervention",
+        "therapy",
+        "digital therapeutics",
+        "early detection",
+        "tracking",
+        "mental illness",
+        "recovery"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.375,
+          "recall": 0.17647058823529413,
+          "f1": 0.24,
+          "true_positives": 3,
+          "false_positives": 5,
+          "false_negatives": 14,
+          "predicted_count": 8,
+          "gold_count": 17
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.4
+        },
+        "recall_at_k": {
+          "R@1": 0.058823529411764705,
+          "R@3": 0.058823529411764705,
+          "R@5": 0.11764705882352941,
+          "R@10": 0.17647058823529413
+        },
+        "ap": 0.6333333333333333,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.46927872602275644,
+          "NDCG@5": 0.4703652827859579
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2207.11482v1",
+      "predicted_terms": [
+        "multimodal emotion",
+        "unsupervised learning",
+        "emotions modalities",
+        "recognition modality",
+        "methods unsupervised",
+        "datasets method"
+      ],
+      "gold_terms": [
+        "multimodal emotion recognition",
+        "emotion recognition",
+        "discrete emotions",
+        "emotional expression",
+        "emotion perception",
+        "emotion"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "false_positives": 6,
+          "false_negatives": 6,
+          "predicted_count": 6,
+          "gold_count": 6
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.0,
+          "P@5": 0.0
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.0,
+          "R@5": 0.0,
+          "R@10": 0.0
+        },
+        "ap": 0.0,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.0,
+          "NDCG@5": 0.0
+        },
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "doc_id": "2207.00644v3",
+      "predicted_terms": [
+        "cognitive architectures",
+        "sociocultural perspective",
+        "sociocultural processes",
+        "architectures cognitive",
+        "colorblind approach",
+        "cognitive architecture",
+        "cognitive sociocultural",
+        "cognitive modeling",
+        "knowledge structures",
+        "design development"
+      ],
+      "gold_terms": [
+        "cognitive architecture",
+        "cognitive modeling",
+        "sociocultural perspective",
+        "physiological perspective",
+        "knowledge structures",
+        "cognitive processes",
+        "colorblind approach",
+        "implicit bias",
+        "social cognition",
+        "conceptual knowledge",
+        "human cognition",
+        "computational cognitive modeling",
+        "sociocultural processes",
+        "representation (knowledge representation)"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.6,
+          "recall": 0.42857142857142855,
+          "f1": 0.5,
+          "true_positives": 6,
+          "false_positives": 4,
+          "false_negatives": 8,
+          "predicted_count": 10,
+          "gold_count": 14
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.6666666666666666,
+          "P@5": 0.6,
+          "P@10": 0.6
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.14285714285714285,
+          "R@5": 0.21428571428571427,
+          "R@10": 0.42857142857142855
+        },
+        "ap": 0.6208333333333332,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.5307212739772434,
+          "NDCG@5": 0.5147714448836774,
+          "NDCG@10": 0.5481351590340573
+        },
+        "reciprocal_rank": 0.5
+      }
+    },
+    {
+      "doc_id": "piaget_1952",
+      "predicted_terms": [
+        "cognitive development",
+        "biological maturation",
+        "development sensorimotor",
+        "schemas",
+        "preoperational",
+        "developmental theory",
+        "abilities cognitive",
+        "problem solving",
+        "development occurs"
+      ],
+      "gold_terms": [
+        "developmental theory",
+        "cognitive development",
+        "intelligence",
+        "biological maturation",
+        "environmental experience",
+        "sensorimotor stage",
+        "preoperational stage",
+        "concrete operational stage",
+        "formal operational stage",
+        "assimilation",
+        "accommodation",
+        "schemas",
+        "knowledge construction",
+        "active exploration",
+        "problem-solving"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.4444444444444444,
+          "recall": 0.26666666666666666,
+          "f1": 0.33333333333333337,
+          "true_positives": 4,
+          "false_positives": 5,
+          "false_negatives": 11,
+          "predicted_count": 9,
+          "gold_count": 15
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.6666666666666666,
+          "P@5": 0.6
+        },
+        "recall_at_k": {
+          "R@1": 0.06666666666666667,
+          "R@3": 0.13333333333333333,
+          "R@5": 0.2,
+          "R@10": 0.26666666666666666
+        },
+        "ap": 0.8541666666666666,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.7653606369886217,
+          "NDCG@5": 0.6992148198508501
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2408.14492v1",
+      "predicted_terms": [
+        "descriptor evolution",
+        "descriptors memory",
+        "characterization descriptors",
+        "ablation study",
+        "behavior modeling",
+        "neural networks"
+      ],
+      "gold_terms": [
+        "memory behavior modeling",
+        "cognitive psychology",
+        "memory equations",
+        "memory behavior",
+        "data-driven memory modeling",
+        "knowledge-informed neural network",
+        "psychology theory informed neural networks",
+        "descriptor evolution",
+        "memory theoretical equations",
+        "sparse regression",
+        "buffering mechanism",
+        "gradient instability",
+        "local optima",
+        "ablation study"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.3333333333333333,
+          "recall": 0.14285714285714285,
+          "f1": 0.2,
+          "true_positives": 2,
+          "false_positives": 4,
+          "false_negatives": 12,
+          "predicted_count": 6,
+          "gold_count": 14
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.4
+        },
+        "recall_at_k": {
+          "R@1": 0.07142857142857142,
+          "R@3": 0.07142857142857142,
+          "R@5": 0.14285714285714285,
+          "R@10": 0.14285714285714285
+        },
+        "ap": 0.75,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.46927872602275644,
+          "NDCG@5": 0.48522855511632257
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2301.07515v1",
+      "predicted_terms": [
+        "conceptualization development",
+        "networked psychology",
+        "emotional contagion",
+        "disaster psychology",
+        "community psychology",
+        "social science"
+      ],
+      "gold_terms": [
+        "risk perception",
+        "positive and negative emotions",
+        "panic",
+        "anger",
+        "rumor",
+        "stress",
+        "learned helplessness",
+        "disaster psychology",
+        "emotional contagion",
+        "coping mechanisms",
+        "preparedness",
+        "response",
+        "recovery",
+        "structural network dynamics",
+        "social influence",
+        "community psychology",
+        "individual behavior",
+        "computational social science",
+        "networked psychology",
+        "dynamic networks"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.6666666666666666,
+          "recall": 0.2,
+          "f1": 0.30769230769230765,
+          "true_positives": 4,
+          "false_positives": 2,
+          "false_negatives": 16,
+          "predicted_count": 6,
+          "gold_count": 20
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.6666666666666666,
+          "P@5": 0.8
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.1,
+          "R@5": 0.2,
+          "R@10": 0.2
+        },
+        "ap": 0.6791666666666667,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.5307212739772434,
+          "NDCG@5": 0.6608397947263839
+        },
+        "reciprocal_rank": 0.5
+      }
+    },
+    {
+      "doc_id": "2504.12337v1",
+      "predicted_terms": [
+        "conversational fluency",
+        "empathy simulation",
+        "ethical scrutiny",
+        "mental health"
+      ],
+      "gold_terms": [
+        "empathy simulation",
+        "emotional support",
+        "therapeutic value",
+        "accessibility (of mental health support)",
+        "privacy concerns (in therapeutic context)",
+        "professional oversight",
+        "user attitudes",
+        "personal use (of mental health tools)",
+        "perceived therapeutic efficacy",
+        "clinical scrutiny",
+        "ethical scrutiny",
+        "informal mental health support",
+        "conversational fluency",
+        "help-seeking behavior"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.75,
+          "recall": 0.21428571428571427,
+          "f1": 0.3333333333333333,
+          "true_positives": 3,
+          "false_positives": 1,
+          "false_negatives": 11,
+          "predicted_count": 4,
+          "gold_count": 14
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 1.0
+        },
+        "recall_at_k": {
+          "R@1": 0.07142857142857142,
+          "R@3": 0.21428571428571427,
+          "R@5": 0.21428571428571427,
+          "R@10": 0.21428571428571427
+        },
+        "ap": 1.0,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 1.0
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2407.09563v1",
+      "predicted_terms": [
+        "epistemological milestones",
+        "cognitive granularity",
+        "phenomenology",
+        "neuronal level",
+        "epistemological",
+        "requires neuronal",
+        "cognitive analysis",
+        "neural networks",
+        "neural cognition",
+        "neuronal"
+      ],
+      "gold_terms": [
+        "cognitive processes",
+        "knowledge representation",
+        "explainability",
+        "cognitive granularity",
+        "macro-cognition",
+        "cognitive biases",
+        "phenomenology",
+        "neural cognition",
+        "epistemological milestones",
+        "cognitive analysis"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "true_positives": 5,
+          "false_positives": 5,
+          "false_negatives": 5,
+          "predicted_count": 10,
+          "gold_count": 10
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 1.0,
+          "P@5": 0.6,
+          "P@10": 0.5
+        },
+        "recall_at_k": {
+          "R@1": 0.1,
+          "R@3": 0.3,
+          "R@5": 0.3,
+          "R@10": 0.5
+        },
+        "ap": 0.8253968253968254,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 1.0,
+          "NDCG@5": 0.7227265726449519,
+          "NDCG@10": 0.6086182388744239
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2406.10598v1",
+      "predicted_terms": [
+        "contextualized representations",
+        "attention multimodal",
+        "contextualized",
+        "emotion recognition",
+        "language recognition",
+        "speech emotion"
+      ],
+      "gold_terms": [
+        "emotion recognition",
+        "speech emotion recognition",
+        "affective states",
+        "emotional classification",
+        "utterance-level representation",
+        "contextualized representations"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.3333333333333333,
+          "recall": 0.3333333333333333,
+          "f1": 0.3333333333333333,
+          "true_positives": 2,
+          "false_positives": 4,
+          "false_negatives": 4,
+          "predicted_count": 6,
+          "gold_count": 6
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.4
+        },
+        "recall_at_k": {
+          "R@1": 0.16666666666666666,
+          "R@3": 0.16666666666666666,
+          "R@5": 0.3333333333333333,
+          "R@10": 0.3333333333333333
+        },
+        "ap": 0.75,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.46927872602275644,
+          "NDCG@5": 0.48522855511632257
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "mischel_1968",
+      "predicted_terms": [
+        "situational factors",
+        "affective personality",
+        "cognitive affective",
+        "traits situational",
+        "personality systems",
+        "affects situational",
+        "personality theories",
+        "personality traits",
+        "personality assessment",
+        "cognitive social"
+      ],
+      "gold_terms": [
+        "trait theories of personality",
+        "situational factors",
+        "cognitive-social learning",
+        "person-situation interaction",
+        "cognitive-affective personality systems",
+        "encoding",
+        "expectations",
+        "affects",
+        "behavioral variability",
+        "interaction of person and situation"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.1,
+          "recall": 0.1,
+          "f1": 0.10000000000000002,
+          "true_positives": 1,
+          "false_positives": 9,
+          "false_negatives": 9,
+          "predicted_count": 10,
+          "gold_count": 10
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.2,
+          "P@10": 0.1
+        },
+        "recall_at_k": {
+          "R@1": 0.1,
+          "R@3": 0.1,
+          "R@5": 0.1,
+          "R@10": 0.1
+        },
+        "ap": 1.0,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.46927872602275644,
+          "NDCG@5": 0.3391602052736161,
+          "NDCG@10": 0.22009176629808017
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "1911.09937v10",
+      "predicted_terms": [
+        "nonlinear trajectories",
+        "exploratory factor",
+        "baseline covariates"
+      ],
+      "gold_terms": [
+        "growth mixture model",
+        "latent classes",
+        "nonlinear trajectories",
+        "structural equation modeling",
+        "baseline covariates",
+        "exploratory factor analysis",
+        "heterogeneity",
+        "longitudinal data",
+        "confidence interval coverage",
+        "parameter estimation"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.6666666666666666,
+          "recall": 0.2,
+          "f1": 0.30769230769230765,
+          "true_positives": 2,
+          "false_positives": 1,
+          "false_negatives": 8,
+          "predicted_count": 3,
+          "gold_count": 10
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.6666666666666666
+        },
+        "recall_at_k": {
+          "R@1": 0.1,
+          "R@3": 0.2,
+          "R@5": 0.2,
+          "R@10": 0.2
+        },
+        "ap": 0.8333333333333333,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.7039180890341347
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "1503.06692v1",
+      "predicted_terms": [
+        "population diversity"
+      ],
+      "gold_terms": [
+        "social influence",
+        "social learning",
+        "peer imitation",
+        "opinion dynamics",
+        "social context",
+        "diffusion of innovations",
+        "social contagion",
+        "collective social phenomena",
+        "influence among individuals",
+        "spatial diversity",
+        "population diversity",
+        "persistence (of behavior)",
+        "behavioral persistence",
+        "imitation"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 1.0,
+          "recall": 0.07142857142857142,
+          "f1": 0.13333333333333333,
+          "true_positives": 1,
+          "false_positives": 0,
+          "false_negatives": 13,
+          "predicted_count": 1,
+          "gold_count": 14
+        },
+        "precision_at_k": {
+          "P@1": 1.0
+        },
+        "recall_at_k": {
+          "R@1": 0.07142857142857142,
+          "R@3": 0.07142857142857142,
+          "R@5": 0.07142857142857142,
+          "R@10": 0.07142857142857142
+        },
+        "ap": 1.0,
+        "ndcg": {
+          "NDCG@1": 1.0
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2210.08583v1",
+      "predicted_terms": [
+        "somatosensory brain",
+        "somatosensory cognition",
+        "cognition somatosensory",
+        "somatosensory",
+        "strategic execution",
+        "cognition basis",
+        "cognitive tasks",
+        "studies cognition"
+      ],
+      "gold_terms": [
+        "somatosensory cognition",
+        "grip force control",
+        "motor control",
+        "sensorimotor learning",
+        "sensory input",
+        "tactile recognition",
+        "haptic perception",
+        "motor planning",
+        "strategic execution",
+        "multisensory integration",
+        "sensorimotor integration",
+        "cognitive control",
+        "skill learning",
+        "biomonitoring of motor behavior"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.25,
+          "recall": 0.14285714285714285,
+          "f1": 0.18181818181818182,
+          "true_positives": 2,
+          "false_positives": 6,
+          "false_negatives": 12,
+          "predicted_count": 8,
+          "gold_count": 14
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.4
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.07142857142857142,
+          "R@5": 0.14285714285714285,
+          "R@10": 0.14285714285714285
+        },
+        "ap": 0.45,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.2960819109658652,
+          "NDCG@5": 0.34519134224686937
+        },
+        "reciprocal_rank": 0.5
+      }
+    },
+    {
+      "doc_id": "2009.05274v6",
+      "predicted_terms": [
+        "cognitive phenotyping",
+        "individualized mental",
+        "personalized learning",
+        "health diagnostics",
+        "cognitive assessment",
+        "cognitive abilities",
+        "cognitive ability",
+        "phenotyping",
+        "systematic assessment",
+        "simultaneously assesses"
+      ],
+      "gold_terms": [
+        "cognitive phenotyping",
+        "ecological validity",
+        "individual differences",
+        "cognitive abilities",
+        "game-based cognitive assessment",
+        "mini-games",
+        "cognitive ability tasks",
+        "in-game behavior",
+        "predictive modeling",
+        "generalized cognitive ability",
+        "g factor",
+        "age-related cognitive decline",
+        "cross-sectional sample",
+        "population-scale assessment",
+        "individualized mental health diagnostics",
+        "validation",
+        "reliability",
+        "behavioral measures"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.2,
+          "recall": 0.1111111111111111,
+          "f1": 0.14285714285714285,
+          "true_positives": 2,
+          "false_positives": 8,
+          "false_negatives": 16,
+          "predicted_count": 10,
+          "gold_count": 18
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.2,
+          "P@10": 0.2
+        },
+        "recall_at_k": {
+          "R@1": 0.05555555555555555,
+          "R@3": 0.05555555555555555,
+          "R@5": 0.05555555555555555,
+          "R@10": 0.1111111111111111
+        },
+        "ap": 0.6666666666666666,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.46927872602275644,
+          "NDCG@5": 0.3391602052736161,
+          "NDCG@10": 0.2984900352767555
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2507.08804v1",
+      "predicted_terms": [
+        "epistemic humility",
+        "reasoning reimagining",
+        "epistemic control",
+        "reasoning epistemic",
+        "cognitive dissonance",
+        "dialectical engagement"
+      ],
+      "gold_terms": [
+        "cognitive dissonance",
+        "epistemic humility",
+        "reflective reasoning",
+        "critical thinking",
+        "bias",
+        "bias in AI reasoning",
+        "decision paralysis",
+        "cognitive manipulation",
+        "autonomy (user autonomy)",
+        "adaptive decision-making",
+        "epistemic control",
+        "dialectical engagement",
+        "confirmation bias",
+        "cognitive load",
+        "perception (malleable perception)",
+        "attitude change",
+        "motivated reasoning"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.6666666666666666,
+          "recall": 0.23529411764705882,
+          "f1": 0.3478260869565218,
+          "true_positives": 4,
+          "false_positives": 2,
+          "false_negatives": 13,
+          "predicted_count": 6,
+          "gold_count": 17
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.6666666666666666,
+          "P@5": 0.6
+        },
+        "recall_at_k": {
+          "R@1": 0.058823529411764705,
+          "R@3": 0.11764705882352941,
+          "R@5": 0.17647058823529413,
+          "R@10": 0.23529411764705882
+        },
+        "ap": 0.7333333333333333,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.7039180890341347,
+          "NDCG@5": 0.639945385422766
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2505.16274v1",
+      "predicted_terms": [
+        "intonation analysis",
+        "multimodal cognitive",
+        "behavioral analysis",
+        "anticipatory policy",
+        "coherence rhythms",
+        "behavioral modeling",
+        "strategic behavior",
+        "behavioral mechanisms",
+        "emotional dynamics",
+        "behavior mapping"
+      ],
+      "gold_terms": [
+        "emotional dynamics",
+        "emotional rhythms",
+        "behavioral mechanisms",
+        "strategic decision-making",
+        "Multimodal Cognitive Behavioral Modeling",
+        "micro-expression tracking",
+        "acoustic intonation analysis",
+        "semantic flow modeling",
+        "cognitive load simulation",
+        "strategic behavior mapping",
+        "emotion",
+        "motivation",
+        "dominance-coherence rhythms",
+        "anticipatory policy modeling",
+        "behavioral analysis",
+        "emotional dynamics"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.3,
+          "recall": 0.2,
+          "f1": 0.24,
+          "true_positives": 3,
+          "false_positives": 7,
+          "false_negatives": 12,
+          "predicted_count": 10,
+          "gold_count": 16
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.2,
+          "P@10": 0.3
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.0625,
+          "R@5": 0.0625,
+          "R@10": 0.1875
+        },
+        "ap": 0.3055555555555555,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.23463936301137822,
+          "NDCG@5": 0.16958010263680806,
+          "NDCG@10": 0.24573132854020638
+        },
+        "reciprocal_rank": 0.3333333333333333
+      }
+    },
+    {
+      "doc_id": "2504.14996v1",
+      "predicted_terms": [
+        "situational awareness",
+        "cognitive overload",
+        "distributed cognition",
+        "memory aligns",
+        "analyse cognitive",
+        "cognition design",
+        "human reasoning"
+      ],
+      "gold_terms": [
+        "distributed cognition",
+        "team cognition",
+        "decision-making",
+        "human-AI team cognition",
+        "adaptive memory",
+        "cognitive overload",
+        "situational awareness",
+        "team coordination",
+        "collaborative decision-making",
+        "human reasoning"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.5714285714285714,
+          "recall": 0.4,
+          "f1": 0.47058823529411764,
+          "true_positives": 4,
+          "false_positives": 3,
+          "false_negatives": 6,
+          "predicted_count": 7,
+          "gold_count": 10
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 1.0,
+          "P@5": 0.6
+        },
+        "recall_at_k": {
+          "R@1": 0.1,
+          "R@3": 0.3,
+          "R@5": 0.3,
+          "R@10": 0.4
+        },
+        "ap": 0.8928571428571428,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 1.0,
+          "NDCG@5": 0.7227265726449519
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "1711.01767v1",
+      "predicted_terms": [
+        "constructs neurophenomics",
+        "neurophenomics psychiatry",
+        "psychological constructs",
+        "neurophenomics",
+        "psychology constructs",
+        "social psychology",
+        "objectively measured",
+        "brain processes",
+        "brain environment",
+        "vector psychology"
+      ],
+      "gold_terms": [
+        "mind-brain-environment relations",
+        "topological psychology",
+        "vector psychology",
+        "patterns of interaction",
+        "psychological constructs",
+        "cognitive psychology constructs",
+        "social psychology constructs",
+        "neurophenomics",
+        "brain cognitive activity",
+        "psychophysics"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.3,
+          "recall": 0.3,
+          "f1": 0.3,
+          "true_positives": 3,
+          "false_positives": 7,
+          "false_negatives": 7,
+          "predicted_count": 10,
+          "gold_count": 10
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.4,
+          "P@10": 0.3
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.1,
+          "R@5": 0.2,
+          "R@10": 0.3
+        },
+        "ap": 0.37777777777777777,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.23463936301137822,
+          "NDCG@5": 0.3156484524795145,
+          "NDCG@10": 0.2684550357175426
+        },
+        "reciprocal_rank": 0.3333333333333333
+      }
+    },
+    {
+      "doc_id": "bandura_1977",
+      "predicted_terms": [
+        "cognitive theory",
+        "cognitive approaches",
+        "self efficacy",
+        "behavioral change",
+        "thought patterns",
+        "social learning",
+        "self concept",
+        "outcome expectations"
+      ],
+      "gold_terms": [
+        "self-efficacy",
+        "cognitive theory of motivation",
+        "social learning",
+        "self-efficacy expectations",
+        "outcome expectations",
+        "self-concept",
+        "perceived control",
+        "behavioral change",
+        "effort expenditure",
+        "persistence",
+        "thought patterns"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.5,
+          "recall": 0.36363636363636365,
+          "f1": 0.4210526315789474,
+          "true_positives": 4,
+          "false_positives": 4,
+          "false_negatives": 7,
+          "predicted_count": 8,
+          "gold_count": 11
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.0,
+          "P@5": 0.4
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.0,
+          "R@5": 0.18181818181818182,
+          "R@10": 0.36363636363636365
+        },
+        "ap": 0.4125,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.0,
+          "NDCG@5": 0.27727342735504823
+        },
+        "reciprocal_rank": 0.25
+      }
+    },
+    {
+      "doc_id": "0412059v1",
+      "predicted_terms": [
+        "linguistic combinatoriality",
+        "compositional structures",
+        "symbolic architectures",
+        "connectionist approaches",
+        "combinatoriality",
+        "neurally instantiate",
+        "question neurally",
+        "cognitive neuroscience",
+        "symbolic processing"
+      ],
+      "gold_terms": [
+        "linguistic combinatoriality",
+        "compositional structures",
+        "symbolic processing",
+        "connectionist approaches",
+        "cognitive neuroscience",
+        "Vector Symbolic Architectures",
+        "neural instantiation",
+        "representation transformation",
+        "compositionality"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.5555555555555556,
+          "recall": 0.5555555555555556,
+          "f1": 0.5555555555555556,
+          "true_positives": 5,
+          "false_positives": 4,
+          "false_negatives": 4,
+          "predicted_count": 9,
+          "gold_count": 9
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.6666666666666666,
+          "P@5": 0.6
+        },
+        "recall_at_k": {
+          "R@1": 0.1111111111111111,
+          "R@3": 0.2222222222222222,
+          "R@5": 0.3333333333333333,
+          "R@10": 0.5555555555555556
+        },
+        "ap": 0.7611111111111111,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.7653606369886217,
+          "NDCG@5": 0.6992148198508501
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2405.08992v2",
+      "predicted_terms": [
+        "contextual emotion",
+        "contextual knowledge",
+        "commonsense reasoning",
+        "emotion recognition"
+      ],
+      "gold_terms": [
+        "emotional theory of mind",
+        "apparent emotion recognition",
+        "facial expressions",
+        "body pose (nonverbal behavior)",
+        "contextual knowledge",
+        "commonsense reasoning",
+        "emotion recognition",
+        "emotion perception",
+        "emotionally sensitive decision-making",
+        "social cognition"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.75,
+          "recall": 0.3,
+          "f1": 0.4285714285714285,
+          "true_positives": 3,
+          "false_positives": 1,
+          "false_negatives": 7,
+          "predicted_count": 4,
+          "gold_count": 10
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.6666666666666666
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.2,
+          "R@5": 0.3,
+          "R@10": 0.3
+        },
+        "ap": 0.6388888888888888,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.5307212739772434
+        },
+        "reciprocal_rank": 0.5
+      }
+    },
+    {
+      "doc_id": "1405.6427v1",
+      "predicted_terms": [
+        "mixtures measurement",
+        "mathematical methods",
+        "disadvantages method",
+        "quantum probability",
+        "information processing",
+        "methods mapping"
+      ],
+      "gold_terms": [
+        "stimulus",
+        "response",
+        "information processing",
+        "state preparation",
+        "state evolution",
+        "measurement",
+        "pure states",
+        "density matrices",
+        "mixtures",
+        "projective measurements",
+        "positive operator valued measurements",
+        "quantum probability"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.3333333333333333,
+          "recall": 0.16666666666666666,
+          "f1": 0.2222222222222222,
+          "true_positives": 2,
+          "false_positives": 4,
+          "false_negatives": 10,
+          "predicted_count": 6,
+          "gold_count": 12
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.0,
+          "P@5": 0.4
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.0,
+          "R@5": 0.16666666666666666,
+          "R@10": 0.16666666666666666
+        },
+        "ap": 0.325,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.0,
+          "NDCG@5": 0.27727342735504823
+        },
+        "reciprocal_rank": 0.25
+      }
+    },
+    {
+      "doc_id": "2501.07653v2",
+      "predicted_terms": [
+        "diagnostic manuals",
+        "mental health"
+      ],
+      "gold_terms": [
+        "mental health diagnosis",
+        "clinical decision support system",
+        "diagnostic manuals",
+        "diagnostic errors",
+        "faithfulness to diagnostic manuals",
+        "interpretability",
+        "patient data privacy",
+        "clinical diagnosis",
+        "expert inspection",
+        "mental health assessment"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.5,
+          "recall": 0.1,
+          "f1": 0.16666666666666669,
+          "true_positives": 1,
+          "false_positives": 1,
+          "false_negatives": 9,
+          "predicted_count": 2,
+          "gold_count": 10
+        },
+        "precision_at_k": {
+          "P@1": 1.0
+        },
+        "recall_at_k": {
+          "R@1": 0.1,
+          "R@3": 0.1,
+          "R@5": 0.1,
+          "R@10": 0.1
+        },
+        "ap": 1.0,
+        "ndcg": {
+          "NDCG@1": 1.0
+        },
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "doc_id": "2506.16702v1",
+      "predicted_terms": [
+        "simulators methodological",
+        "methodological guidance",
+        "psychological simulators",
+        "prototyping research",
+        "methodological advances",
+        "methodological guide",
+        "psychologically grounded",
+        "representations methodological",
+        "grounded personas",
+        "systematic biases"
+      ],
+      "gold_terms": [
+        "psychological simulators",
+        "personas",
+        "psychologically grounded personas",
+        "cognitive modeling",
+        "internal representations",
+        "causal interventions",
+        "model behavior",
+        "human cognition",
+        "systematic biases",
+        "cultural limitations",
+        "prompt sensitivity",
+        "prompt brittleness",
+        "validation against human data",
+        "simulation",
+        "computational models",
+        "temporal limitations",
+        "ethical considerations"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.2,
+          "recall": 0.11764705882352941,
+          "f1": 0.14814814814814817,
+          "true_positives": 2,
+          "false_positives": 8,
+          "false_negatives": 15,
+          "predicted_count": 10,
+          "gold_count": 17
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.2,
+          "P@10": 0.2
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.058823529411764705,
+          "R@5": 0.058823529411764705,
+          "R@10": 0.11764705882352941
+        },
+        "ap": 0.26666666666666666,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.23463936301137822,
+          "NDCG@5": 0.16958010263680806,
+          "NDCG@10": 0.1736666713479918
+        },
+        "reciprocal_rank": 0.3333333333333333
+      }
+    },
+    {
+      "doc_id": "2209.02966v1",
+      "predicted_terms": [
+        "immersive experimental",
+        "researchers developing",
+        "experimental environments",
+        "psychological experiments",
+        "cognitive researchers",
+        "hmd tracking",
+        "immersive",
+        "assist researchers"
+      ],
+      "gold_terms": [
+        "psychological experiments",
+        "cognitive researchers",
+        "immersive experimental environments",
+        "stimuli",
+        "trial assignment",
+        "results saving",
+        "experiment trial",
+        "HMD tracking loss"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.25,
+          "recall": 0.25,
+          "f1": 0.25,
+          "true_positives": 2,
+          "false_positives": 6,
+          "false_negatives": 6,
+          "predicted_count": 8,
+          "gold_count": 8
+        },
+        "precision_at_k": {
+          "P@1": 0.0,
+          "P@3": 0.0,
+          "P@5": 0.4
+        },
+        "recall_at_k": {
+          "R@1": 0.0,
+          "R@3": 0.0,
+          "R@5": 0.25,
+          "R@10": 0.25
+        },
+        "ap": 0.325,
+        "ndcg": {
+          "NDCG@1": 0.0,
+          "NDCG@3": 0.0,
+          "NDCG@5": 0.27727342735504823
+        },
+        "reciprocal_rank": 0.25
+      }
+    },
+    {
+      "doc_id": "festinger_1957",
+      "predicted_terms": [
+        "cognitive dissonance",
+        "dissonance cognitive",
+        "conflicting cognitions",
+        "changing cognitions",
+        "dissonance",
+        "cognitions decreasing",
+        "motivational drive",
+        "new cognitions"
+      ],
+      "gold_terms": [
+        "cognitive dissonance",
+        "psychological discomfort",
+        "beliefs",
+        "attitudes",
+        "behavior",
+        "motivational drive",
+        "attitude change",
+        "decision justification",
+        "effort justification",
+        "cognitions"
+      ],
+      "metrics": {
+        "basic_metrics": {
+          "precision": 0.25,
+          "recall": 0.2,
+          "f1": 0.22222222222222224,
+          "true_positives": 2,
+          "false_positives": 6,
+          "false_negatives": 8,
+          "predicted_count": 8,
+          "gold_count": 10
+        },
+        "precision_at_k": {
+          "P@1": 1.0,
+          "P@3": 0.3333333333333333,
+          "P@5": 0.2
+        },
+        "recall_at_k": {
+          "R@1": 0.1,
+          "R@3": 0.1,
+          "R@5": 0.1,
+          "R@10": 0.2
+        },
+        "ap": 0.6428571428571428,
+        "ndcg": {
+          "NDCG@1": 1.0,
+          "NDCG@3": 0.46927872602275644,
+          "NDCG@5": 0.3391602052736161
+        },
+        "reciprocal_rank": 1.0
+      }
+    }
+  ],
+  "apa_analysis": {
+    "average_coherence": 0.0,
+    "average_category_overlap": 0.0
+  }
+}

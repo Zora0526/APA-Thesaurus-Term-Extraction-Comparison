@@ -1,0 +1,62 @@
+[
+  {
+    "source": "textbook",
+    "id": "intro_psych_ch1",
+    "title": "Introduction to Psychology: Science of Mind and Behavior",
+    "content": "Psychology is the scientific study of mind and behavior. It encompasses the biological influences, social pressures, and environmental factors that affect how people think, act, and feel. Gaining a richer understanding of psychology can help people achieve insights into their own actions as well as a better understanding of other people. Modern psychology is characterized by its scientific approach to understanding human behavior and mental processes. Psychologists use empirical methods to investigate questions about human nature, including experiments, correlational studies, case studies, and naturalistic observations.",
+    "authors": [
+      "Multiple Authors"
+    ],
+    "subfield": "introduction",
+    "published": "2020",
+    "textbook": "Introduction to Psychology",
+    "chapter": "Chapter 1",
+    "key_concepts": [
+      "psychology",
+      "scientific method",
+      "mind",
+      "behavior",
+      "empirical methods"
+    ]
+  },
+  {
+    "source": "textbook",
+    "id": "cognitive_psych_attention",
+    "title": "Attention and Information Processing",
+    "content": "Attention refers to the limited capacity to process information from multiple sources simultaneously. Selective attention allows us to focus on relevant stimuli while ignoring irrelevant distractions. The cocktail party phenomenon demonstrates our ability to attend to one conversation while ignoring others. Divided attention tasks show that performance decreases when trying to attend to multiple stimuli. Attention can be automatic (involuntary) or controlled (voluntary). Modern theories of attention include bottleneck models, capacity models, and feature integration theory. Working memory plays a crucial role in attention processes by temporarily storing and manipulating information.",
+    "authors": [
+      "Multiple Authors"
+    ],
+    "subfield": "cognitive_psychology",
+    "published": "2019",
+    "textbook": "Cognitive Psychology: Mind and Brain",
+    "chapter": "Chapter 4",
+    "key_concepts": [
+      "attention",
+      "selective attention",
+      "working memory",
+      "cocktail party phenomenon",
+      "information processing"
+    ]
+  },
+  {
+    "source": "textbook",
+    "id": "social_psych_attitudes",
+    "title": "Attitudes and Attitude Change",
+    "content": "Attitudes are evaluations of people, objects, or ideas. They have three components: affective (emotional), behavioral (action tendencies), and cognitive (beliefs). Attitudes can be explicit (conscious) or implicit (unconscious). Strong attitudes are more accessible from memory and more resistant to change. Attitude change can occur through persuasion, cognitive dissonance, or elaboration likelihood. Central route processing involves careful consideration of message arguments, while peripheral route processing relies on superficial cues. Social influence, cognitive consistency, and motivated reasoning all play roles in attitude formation and change.",
+    "authors": [
+      "Multiple Authors"
+    ],
+    "subfield": "social_psychology",
+    "published": "2021",
+    "textbook": "Social Psychology",
+    "chapter": "Chapter 7",
+    "key_concepts": [
+      "attitudes",
+      "persuasion",
+      "cognitive dissonance",
+      "elaboration likelihood",
+      "social influence"
+    ]
+  }
+]
